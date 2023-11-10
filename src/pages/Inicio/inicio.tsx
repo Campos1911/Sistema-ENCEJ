@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 
 /**IMPORT DAS IMAGENS**/
-import CTJLogo from '../../images/Organizadores/ctj.jpg'
+import CTJLogo from '../../images/Logo/Logo.jpg'
 import JunioresLogo from '../../images/Organizadores/juniores.jpg'
 import Logo from '../../../src/images/Logo/Logo.jpg'
 
