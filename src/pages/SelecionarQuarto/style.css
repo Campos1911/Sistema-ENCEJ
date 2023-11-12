@@ -1,0 +1,67 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.boxUser {
+    display: flex;
+    margin: 20px;
+}
+
+.fotoUser {
+    width: 170px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.columInfos {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 160px;
+}
+
+.columInfos h1{
+    font-weight: 600;
+}
+
+.logoEncej {
+    height: 120px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.boxLegenda {
+    display: flex;
+    justify-content: center;
+}
+
+.legenda {
+    height: 46px;
+}
+
+.selecCapacidade {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.selecCapacidade h2{
+    font-weight: 600;
+}
+
+.centralizarButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.centralizarButtons .botaoQuartos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
