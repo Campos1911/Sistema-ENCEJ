@@ -1,5 +1,6 @@
+import React from "react";
 import Button from "../Button/button";
-import "./style.css"
+import "./style.css";
 
 export default function ContainerQuarto({quarto}:{quarto: string}) {
     return (
