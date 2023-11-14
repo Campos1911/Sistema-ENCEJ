@@ -82,6 +82,14 @@
     cursor: pointer;
 }
 
+.button:active {
+    background-color: #ec4e88;
+    color: #FFF;
+    padding: 20px 40px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
 .linha {
     display: flex;
     flex-direction: row;
