@@ -7,9 +7,11 @@ import './style.css';
 export default function Footer() {
     return (
         <>
-        <div className="logo-organizadores">
-          <img className='ctj' src={CTJLogo} alt="ctjunior logo" />
-          <img className='juniores' src={JunioresLogo} alt="juniores logo" />
+        <div className="centralizar">
+          <div className="logo-organizadores">
+            <img className='ctj' src={CTJLogo} alt="ctjunior logo" />
+            <img className='juniores' src={JunioresLogo} alt="juniores logo" />
+          </div>
         </div>
         </>
     );
