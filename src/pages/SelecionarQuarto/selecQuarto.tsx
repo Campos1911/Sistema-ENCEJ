@@ -39,20 +39,6 @@ export default function SelecQuarto() {
             </div>
         </div>
 
-        <div className="quartos">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. A exercitationem iste porro consequatur reiciendis explicabo ullam quo ab commodi temporibus modi at dolore eligendi voluptatem beatae, illum odio quasi quam.</h2>
-            
-            <div className="teste1">
-                
-                <div className="box1">
-                    <p>tes</p>
-                </div>
-                <div className="box2">
-                    <p>tes</p>
-                </div>
-            
-            </div>
-        </div>
         </>
     );
 }

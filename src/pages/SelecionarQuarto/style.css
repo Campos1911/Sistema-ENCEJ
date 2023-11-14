@@ -39,11 +39,11 @@
 }
 
 .legenda {
-    height: 46px;
+    height: 38px;
 }
 
 .selecCapacidade {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@
 
 .selecCapacidade h2{
     font-weight: 600;
-    font-size: 38px;
+    font-size: 32px;
 }
 
 .centralizarButtons {
@@ -79,16 +79,11 @@
     color: #FFF;
     padding: 20px 40px;
     transform: scale(1);
+    cursor: pointer;
 }
 
-.quartos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px 100px;
+.teste {
+    background-color: honeydew;
+    height: 200px;
 }
 
-.teste1 {
-    display: flex;
-    justify-content: space-between;
-}
