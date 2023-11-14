@@ -52,7 +52,7 @@
 
 .selecCapacidade h2{
     font-weight: 600;
-    font-size: 34px;
+    font-size: 38px;
 }
 
 .centralizarButtons {
@@ -60,20 +60,20 @@
     justify-content: center;
 }
 
-.centralizarButtons .botaoQuartos {
+.botaoQuartos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 30%;
 }
 
-.botaoQuartos .button {
+.button {
     background-color: #C10046;
     color: #FFF;
     padding: 20px 40px;
 }
 
-.botaoQuartos .button:hover {
+.button:hover {
     background-color: #ec4e88;
     color: #FFF;
     padding: 20px 40px;

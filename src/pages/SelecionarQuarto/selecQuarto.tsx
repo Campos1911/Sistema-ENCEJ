@@ -18,7 +18,7 @@ export default function SelecQuarto() {
                 </div>
             </div>
 
-            <div className="endLogo">
+            <div className="box-logo">
                 <img className="logoEncej" src={Encej} alt="Logo Encej" />
             </div>
 
