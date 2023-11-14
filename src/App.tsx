@@ -7,7 +7,7 @@ import SelecQuarto from './pages/SelecionarQuarto/selecQuarto';
 function App() {
   return (
     <>
-    <Home />
+    <SelecQuarto />
     </>
   );
 }

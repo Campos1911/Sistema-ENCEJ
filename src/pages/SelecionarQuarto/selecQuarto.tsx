@@ -4,6 +4,7 @@ import './style.css'
 import Encej from '../../images/Logo/Logo.jpg';
 import Legenda from '../../images/Legenda/Legenda.png'
 import Button from "../../components/Button/button";
+import ContainerQuarto from "../../components/Container Quarto/containerQuarto";
 
 export default function SelecQuarto() {
     return(
@@ -37,6 +38,21 @@ export default function SelecQuarto() {
                     <Button classname="button" insideText="10 Lugares" />
                 </div>
             </div>
+        </div>
+
+        <div className="linha">
+            <ContainerQuarto quarto='Quarto 1'/>
+            <ContainerQuarto quarto='Quarto 2'/>
+        </div>
+
+        <div className="linha">
+            <ContainerQuarto quarto='Quarto 3'/>
+            <ContainerQuarto quarto='Quarto 4'/>
+        </div>
+
+        <div className="linha">
+            <ContainerQuarto quarto='Quarto 5'/>
+            <ContainerQuarto quarto='Quarto 6'/>
         </div>
 
         </>
