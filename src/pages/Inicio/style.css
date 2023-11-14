@@ -1,0 +1,45 @@
+* {
+    transform: scale(0.95);
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #FFF;
+}
+
+p {
+    font-size: 29px;
+    color: #FFF;
+    margin-bottom: 60px;
+}
+
+.centralizar-pg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logoEncej {
+    margin-bottom: 20px;
+}
+
+.inputs-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-organizadores {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    height: 80px;
+}
+
+.logo-organizadores img{
+    width: 310px;
+}

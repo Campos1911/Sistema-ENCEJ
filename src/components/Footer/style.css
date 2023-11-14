@@ -1,0 +1,11 @@
+.logo-organizadores {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    height: 80px;
+}
+
+.logo-organizadores img{
+    width: 310px;
+}
