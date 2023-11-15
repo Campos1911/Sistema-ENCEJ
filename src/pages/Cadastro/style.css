@@ -1,0 +1,30 @@
+* {
+    transform: scale(0.952);
+}
+
+.centralizarPg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logoEncej {
+    margin-bottom: 20px;
+    transform: scale(0.9);
+}
+
+.boxInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.selecEJ {
+    margin-top: 20px;
+}
+
+select {
+    color: black;
+}
