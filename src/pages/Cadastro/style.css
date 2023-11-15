@@ -19,6 +19,7 @@
 .boxInputs {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .selecEJ {
@@ -26,5 +27,9 @@
 }
 
 select {
+    color: black;
+}
+
+option {
     color: black;
 }
