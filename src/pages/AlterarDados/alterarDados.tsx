@@ -15,13 +15,14 @@ export default function AlterarDados() {
                 <p>Insira seus novos dados abaixo</p>
             </section>
 
-            <section className="centralizar">
+            /**FORMULÁRIO PARA PEGAR DADOS DO PARTICIPANTE**/
+            <form className="centralizar">
                 <Input type="text" placeh="Insira seu nome" classname="username" />
                 <Input type="password" placeh="Insira sua senha" classname="password" />
                 <Input type="text" placeh="Insira seu nome atualizado" classname="newUsername" />
                 <Input type="text" placeh="Insira seu novo meio de Contato" classname="newContact" />
                 <Button insideText="Salvar" classname="bttn1" />
-            </section>
+            </form>
 
             <Footer />
             
