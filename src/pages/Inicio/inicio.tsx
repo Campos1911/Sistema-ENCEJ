@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './inicio.css'
 
 /**IMPORT DAS IMAGENS**/
 import CTJLogo from '../../images/Organizadores/ctj.jpg'
@@ -14,7 +14,7 @@ import Button from '../../components/Button/button';
 
 export default function Home() {
     return (
-        <>
+      <>
       <div className="centralizar-pg">
 
         <img className='logoEncej' src={Logo} alt="logoEncej" />
