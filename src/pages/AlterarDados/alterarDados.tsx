@@ -15,7 +15,7 @@ export default function AlterarDados() {
                 <p>Insira seus novos dados abaixo</p>
             </section>
 
-            /**FORMULÁRIO PARA PEGAR DADOS DO PARTICIPANTE**/
+            {/**FORMULÁRIO PARA PEGAR DADOS DO PARTICIPANTE**/}
             <form className="centralizar">
                 <Input type="text" placeh="Insira seu nome" classname="username" />
                 <Input type="password" placeh="Insira sua senha" classname="password" />
