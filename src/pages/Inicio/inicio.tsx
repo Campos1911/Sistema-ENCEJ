@@ -9,6 +9,7 @@ import Logo from '../../../src/images/Logo/Logo.jpg'
 /**IMPORT DOS COMPONENTES**/
 import Input from '../../components/Input/input'
 import Button from '../../components/Button/button';
+import Footer from '../../components/Footer/footer';
 
 /**FUNÇÃO PARA MUDAR DE PÁGINA AO CLICAR NO BOTÃO --> MUDAR PARA UM ARQUIVO ESPECÍFICO**/
 
@@ -30,10 +31,7 @@ export default function Home() {
 
         <Button classname='bttLogin' insideText='Entrar'/>
 
-        <div className="logo-organizadores">
-          <img className='ctj' src={CTJLogo} alt="ctjunior logo" />
-          <img className='juniores' src={JunioresLogo} alt="juniores logo" />
-        </div>
+        <Footer />
 
       </div>
       </>

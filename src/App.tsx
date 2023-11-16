@@ -8,7 +8,7 @@ import Cadastro from './pages/Cadastro/cadastro';
 function App() {
   return (
     <>
-    <AlterarDados />
+    <Home  />
     </>
   );
 }
