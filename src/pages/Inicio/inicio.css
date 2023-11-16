@@ -1,7 +1,3 @@
-* {
-    transform: scale(0.95);
-}
-
 h2 {
     text-align: center;
     font-size: 48px;
@@ -24,8 +20,11 @@ p {
 }
 
 .logoEncej {
+    margin-top: 100px;
     margin-bottom: 20px;
+    width: 400px;
 }
+
 
 .inputs-section{
     display: flex;

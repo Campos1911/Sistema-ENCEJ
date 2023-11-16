@@ -4,7 +4,7 @@ import './inicio.css'
 /**IMPORT DAS IMAGENS**/
 import CTJLogo from '../../images/Organizadores/ctj.jpg'
 import JunioresLogo from '../../images/Organizadores/juniores.jpg'
-import Logo from '../../../src/images/Logo/Logo.jpg'
+import Encej from '../../../src/images/Logo/Logo.jpg'
 
 /**IMPORT DOS COMPONENTES**/
 import Input from '../../components/Input/input'
@@ -17,7 +17,7 @@ export default function Home() {
       <>
       <div className="centralizar-pg">
 
-        <img className='logoEncej' src={Logo} alt="logoEncej" />
+        <img className='logoEncej' src={Encej} alt="logoEncej" />
 
         <h2>Reserva de Quartos</h2>
 
