@@ -4,6 +4,7 @@ import './style.css'
 import Footer from "../../components/Footer/footer";
 import ImageEdit from '../../../src/images/Organizadores/imageEdit.png'
 import PicPlaceHolder from '../../../src/images/Organizadores/userHolder.jpg'
+import Button from '../../components/Button/button';
 
 export default function AlterarFoto () {
     return (
@@ -32,7 +33,7 @@ export default function AlterarFoto () {
                 /**SELETOR DE EJ, INTEGRAR NOMEEJ E HOLDERNAMECHANGE**/
                 <section className="centralizarSeletor">
                     <form>
-                        <select value={nomeEJ} onChange{holderNameChange}> 
+                        <select value={nomeEJ} onChange={holderNameChange}> 
                             <option value="">Selecione sua Empresa Junior</option>
                             <option value="opcao1">Opção 1</option>
                             <option value="opcao2">Opção 2</option>
