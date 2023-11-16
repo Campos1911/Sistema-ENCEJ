@@ -28,6 +28,8 @@ export default function SelecQuarto() {
             </div>
         </div>
 
+        
+        /**DIV'S QUE SEPARAM OS CONTAINERS DE QUARTO EM LINHAS**/
         <div className="linha">
             <ContainerQuarto quarto='Quarto 1'/>
             <ContainerQuarto quarto='Quarto 2'/>
