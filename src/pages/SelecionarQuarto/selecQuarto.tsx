@@ -6,12 +6,20 @@ import Button from "../../components/Button/button";
 import ContainerQuarto from "../../components/Container Quarto/containerQuarto";
 import Header from "../../components/Header/headerUser";
 import Footer from "../../components/Footer/footer";
+import Line from "../../images/Organizadores/line.jpg"
 
 export default function SelecQuarto() {
     return(
         <>
 
-        <Header username="Carlos Teste" empresaJ="CT Junior"/>
+        <Header username="Carlos R. Guimarães" empresaJ="CT Junior"/>
+
+        <div className="divisoria">
+            <img className="line" src={Line} alt="Divisória" />
+        </div>
+
+        <div className="divisoriaDois">
+        </div>
         
         <section className="boxLegenda">
             <img className="legenda" src={Legenda} alt="legendaQuartos" />
