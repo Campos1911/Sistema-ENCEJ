@@ -11,6 +11,9 @@ export default function AppRoutes() {
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/selecionar-quarto" element={<SelecQuarto />}></Route>
                 <Route path="/cadastro" element={<Cadastro />}></Route>
+                <Route path="/alterar-dados" element={<Home />}></Route>
+                <Route path="/alterar-foto" element={<SelecQuarto />}></Route>
+                <Route path="/boas-vindas" element={<Cadastro />}></Route>
             </Routes>
         </Router>
     )
