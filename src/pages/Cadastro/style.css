@@ -1,0 +1,38 @@
+* {
+    transform: scale(0.952);
+}
+
+.centralizarPg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logoEncej {
+    margin-bottom: 20px;
+    transform: scale(0.9);
+}
+
+.boxInputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.selecEJ {
+    margin-top: 8px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+select {
+    color: black;
+}
+
+option {
+    color: black;
+}
