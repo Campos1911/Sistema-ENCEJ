@@ -12,7 +12,7 @@ export default function ContainerQuarto({quarto}:{quarto: string}) {
                 </div>
                 
                 <div className="bttBox">
-                    <Button classname="verDetalhes" insideText="Ver detalhes" />
+                    <Button caminho="selecionar-quarto" classname="verDetalhes" insideText="Ver detalhes" />
                 </div>
             
             </div>

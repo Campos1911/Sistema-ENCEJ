@@ -28,7 +28,7 @@ export default function Home() {
           <Input classname='password' type='password' placeh='**************'/>
         </section>
 
-        <Button classname='bttLogin' insideText='Entrar'/>
+        <Button caminho="selecionar-quarto" classname='bttLogin' insideText='Entrar'/>
 
         <div className="logo-organizadores">
           <img className='ctj' src={CTJLogo} alt="ctjunior logo" />
