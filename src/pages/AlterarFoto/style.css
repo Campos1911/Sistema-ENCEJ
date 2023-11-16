@@ -1,0 +1,83 @@
+.centralizarTitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.centralizarUserHolder {
+    width: 245px;
+    height: 245px;
+    border-radius: 9,999px;
+  }
+
+.modelaIcone {
+    width: 35.42px;
+    height: 35.42px;
+}
+
+
+.modelaIcone:hover {
+    width: 35.42px;
+    height: 35.42px;
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+.modelaIcone:active {
+    width: 35.42px;
+    height: 35.42px;
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+.inputStyle {
+    display: none;
+}
+
+.fotoCircular {
+    max-width: 245px;
+    max-height: 245px;
+    border-radius: 9,999px;
+}
+
+.centralizarSeletor {
+        background-color: #FFF;
+        border: none;
+        width: 600px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 8px;
+        margin-bottom: 18px;
+}
+
+.centralizarButtons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: #C10046;
+    color: #FFF;
+    padding: 20px 20px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #ec4e88;
+    color: #FFF;
+    padding: 20px 40px;
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+  .button:active {
+    background-color: #ec4e88;
+    color: #FFF;
+    padding: 20px 40px;
+    transform: scale(1);
+    cursor: pointer;
+  }
