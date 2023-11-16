@@ -17,10 +17,11 @@ p {
     justify-content: center;
     text-align: center;
     align-items: center;
+    transform: scale(0.8);
 }
 
 .logoEncej {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 20px;
     width: 400px;
 }
