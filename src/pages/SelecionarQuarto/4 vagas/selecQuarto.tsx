@@ -1,12 +1,11 @@
 import React from "react";
 import './style.css'
 
-import Legenda from '../../images/Legenda/Legenda.png'
+import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
 import ContainerQuarto from "../../../components/Container Quarto/containerQuarto";
 import Header from "../../../components/Header/headerUser";
 import Footer from "../../../components/Footer/footer";
-
 
 
 export default function SelecQuarto() {
