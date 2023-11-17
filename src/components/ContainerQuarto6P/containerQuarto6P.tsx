@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./container6p.css";
 
 import Avatar from "../../images/Organizadores/Avatar.jpg" 
 
@@ -8,6 +8,8 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
     return (
         <>
         {/**EH PRECISO RECEBER INFO DE QUANTIDADE DE PESSOAS QUE CABEM NO QUARTO**/}
+
+        <div className="centralizarPg6">
 
             {/**RECEBER NUMERO DO QUARTO**/}
         <div className="boxRoom">
@@ -74,6 +76,8 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
             
 
         </div>
+        </div>
+
         </>
     );
     }

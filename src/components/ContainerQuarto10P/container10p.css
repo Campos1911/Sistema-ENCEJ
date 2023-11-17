@@ -1,9 +1,17 @@
+.centralizarPg10 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .boxRoom {
     width: 564px;
-    height: 294px;
+    height: 750px;
     border-radius: 6px;
     gap: 40px;
-    color: #FFF;
+    background-color: #FFF;
 }
 
 .title {
@@ -13,6 +21,14 @@
     line-height: 13.19px;
     color: #000;
     margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.title h1 {
+    color: #000;
+    text-align: center;
 }
 
 .fotoUsuario {
