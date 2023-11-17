@@ -8,7 +8,7 @@ import Footer from "../../components/Footer/footer";
 export default function AlterarDados() {
     return(
         <>
-            <Header username="Carlos Teste" empresaJ="CT Junior"/>
+            <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
 
             <section className="text">
                 <h1>Alteração de dados do Usuário</h1>

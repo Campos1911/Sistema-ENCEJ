@@ -9,7 +9,7 @@ export default function BoasVindas () {
   return (
     <>
 
-      <Header username="Carlos Teste" empresaJ="CT Junior"/>
+      <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
 
         <section className="centralizarTitulo">
           <h1><strong>Boas vindas, Carlos</strong></h1>

@@ -13,7 +13,7 @@ export default function SelecQuarto10() {
     return(
         <>
 
-        <Header username="Carlos Teste" empresaJ="CT Junior"/>
+        <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
         
         <section className="boxLegenda">
             <img className="legenda" src={Legenda} alt="legendaQuartos" />
