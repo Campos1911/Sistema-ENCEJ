@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css'
+import './inicio.css'
 
 /**IMPORT DAS IMAGENS**/
 import CTJLogo from '../../images/Organizadores/ctj.jpg'
 import JunioresLogo from '../../images/Organizadores/juniores.jpg'
-import Logo from '../../../src/images/Logo/Logo.jpg'
+import Encej from '../../../src/images/Logo/Logo.jpg'
 
 /**IMPORT DOS COMPONENTES**/
 import Input from '../../components/Input/input'
@@ -14,10 +14,10 @@ import Button from '../../components/Button/button';
 
 export default function Home() {
     return (
-        <>
+      <>
       <div className="centralizar-pg">
 
-        <img className='logoEncej' src={Logo} alt="logoEncej" />
+        <img className='logoEncej' src={Encej} alt="logoEncej" />
 
         <h2>Reserva de Quartos</h2>
 
@@ -28,7 +28,7 @@ export default function Home() {
           <Input classname='password' type='password' placeh='**************'/>
         </section>
 
-        <Button classname='bttLogin' insideText='Entrar'/>
+        <Button caminho="selecionar-quarto" classname='bttLogin' insideText='Entrar'/>
 
         <div className="logo-organizadores">
           <img className='ctj' src={CTJLogo} alt="ctjunior logo" />

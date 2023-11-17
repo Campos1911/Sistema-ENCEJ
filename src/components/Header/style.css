@@ -6,7 +6,7 @@
 
 .boxUser {
     display: flex;
-    margin: 20px;
+    margin: 10px;
 }
 
 .fotoUser {
@@ -27,7 +27,7 @@
     font-weight: 600;
 }
 
-.logoEncej {
+.logoEncejHeader {
     height: 120px;
     margin-right: 100px;
     margin-top: 30px;
