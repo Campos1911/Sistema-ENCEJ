@@ -1,8 +1,13 @@
 import React from "react";
 import Button from "../Button/button";
 import "./style.css";
+import { useState } from "react";
+import Modal from "../Modal/modal";
 
 export default function ContainerQuarto({quarto}:{quarto: string}) {
+    
+    const [openModal, setOpenModal] = useState(false)
+    
     return (
         <>
         <div className="box1">
@@ -12,7 +17,8 @@ export default function ContainerQuarto({quarto}:{quarto: string}) {
                 </div>
                 
                 <div className="bttBox">
-                    <Button caminho="selecionar-quarto" classname="verDetalhes" insideText="Ver detalhes" />
+                    <button  className="verDetalhes" onClick={() => setOpenModal(true)}>Ver detalhes</button>
+                    <Modal isOpen={openModal}></Modal>
                 </div>
             
             </div>
