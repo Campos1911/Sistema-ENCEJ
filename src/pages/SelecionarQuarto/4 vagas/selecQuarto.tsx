@@ -2,10 +2,12 @@ import React from "react";
 import './style.css'
 
 import Legenda from '../../images/Legenda/Legenda.png'
-import Button from "../../components/Button/button";
-import ContainerQuarto from "../../components/Container Quarto/containerQuarto";
-import Header from "../../components/Header/headerUser";
-import Footer from "../../components/Footer/footer";
+import Button from "../../../components/Button/button";
+import ContainerQuarto from "../../../components/Container Quarto/containerQuarto";
+import Header from "../../../components/Header/headerUser";
+import Footer from "../../../components/Footer/footer";
+
+
 
 export default function SelecQuarto() {
     return(
@@ -29,7 +31,7 @@ export default function SelecQuarto() {
         </div>
 
         
-        /**DIV'S QUE SEPARAM OS CONTAINERS DE QUARTO EM LINHAS**/
+        {/**DIV'S QUE SEPARAM OS CONTAINERS DE QUARTO EM LINHAS**/}
         <div className="linha">
             <ContainerQuarto quarto='Quarto 1'/>
             <ContainerQuarto quarto='Quarto 2'/>
