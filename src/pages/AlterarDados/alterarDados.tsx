@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./alteradados.css";
 import Header from "../../components/Header/headerUser";
 import Input from "../../components/Input/input";
 import Button from "../../components/Button/button";

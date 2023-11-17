@@ -29,7 +29,7 @@ export default function Home() {
           <Input classname='password' type='password' placeh='**************'/>
         </section>
 
-        <Button caminho="selecionar-quarto" classname='bttLogin' insideText='Entrar'/>
+        <Button caminho="boas-vindas" classname='bttLogin' insideText='Entrar'/>
 
         <Footer />
 

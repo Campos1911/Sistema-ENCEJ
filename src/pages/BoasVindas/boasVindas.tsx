@@ -23,7 +23,7 @@ export default function BoasVindas () {
         </p>
         
         <div className="centralizarButtons">
-          <Button classname='bttWelcome' insideText='Ver quartos'/>
+          <Button caminho="selecionar-quarto" classname='bttWelcome' insideText='Ver quartos'/>
         </div>
       
       <Footer />
