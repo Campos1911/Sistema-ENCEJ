@@ -19,6 +19,7 @@ export default function ContainerQuarto({quarto}:{quarto: string}) {
                 <div className="bttBox">
                     <button className="verDetalhes" onClick={() => {setModal(true)}}>Ver mais</button>
                     
+                    {/**Modal é o componente utilizado para mostrar o popup**/}
                     <Modal isOpen={modal}>
                         <h1>Revise as informações do quarto antes de confirmar</h1>
                         <div className="boxInfo">
