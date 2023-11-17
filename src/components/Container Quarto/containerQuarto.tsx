@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export default function ContainerQuarto({quarto}:{quarto: string}) {
     
-    const [modal, setModal] = useState(false)
+    const [modal, setModal] = useState(false) /** useState para ligar ou desligar visualização do modal **/
 
     return (
         <>
@@ -18,16 +18,18 @@ export default function ContainerQuarto({quarto}:{quarto: string}) {
                 
                 <div className="bttBox">
                     <button className="verDetalhes" onClick={() => {setModal(true)}}>Ver mais</button>
+                    
                     <Modal isOpen={modal}>
                         <h1>Revise as informações do quarto antes de confirmar</h1>
                         <div className="boxInfo">
-                            DASDNASK
+                            AQUI VEM A CAIXA DE DETALHES
                         </div>
                         <div className="boxButtons">
                             <button>Confirmar</button>
                             <button onClick={() => {setModal(false)}}>Voltar</button>
                         </div>
                     </Modal>
+                
                 </div>
             
             </div>
