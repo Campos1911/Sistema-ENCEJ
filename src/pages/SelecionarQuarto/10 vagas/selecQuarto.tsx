@@ -23,9 +23,9 @@ export default function SelecQuarto() {
             <h2>Selecione a capacidade do quarto:</h2>
             <div className="centralizarButtons">
                 <div className="botaoQuartos">
-                    <a href="http://google.com"><Button classname="button" insideText="4 Lugares" /></a>
-                    <a href="http://google.com"><Button classname="button" insideText="6 Lugares" /></a>
-                    <a href="http://google.com"><Button classname="button" insideText="10 Lugares" /></a>
+                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" /></a>
+                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="6 Lugares" /></a>
+                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="10 Lugares" /></a>
                 </div>
             </div>
         </div>

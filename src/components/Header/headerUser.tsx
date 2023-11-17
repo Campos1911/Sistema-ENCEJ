@@ -1,5 +1,5 @@
 import React from "react";
-import Encej from "../../images/Logo/Logo.jpg";
+import EncejPdd from "../../images/Logo padding/Logo - padding.jpg";
 import "./style.css"
 
 
@@ -17,7 +17,7 @@ export default function Header({username, empresaJ}:{username:string, empresaJ:s
         </div>
 
         <div className="box-logo">
-            <img className="logoEncej" src={Encej} alt="Logo Encej" />
+            <img className="logoEncejHeader" src={EncejPdd} alt="Logo Encej" />
         </div>
 
     </header>   
