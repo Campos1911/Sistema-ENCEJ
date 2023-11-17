@@ -1,7 +1,7 @@
 import React from "react";
-import './style.css'
+import './selec.css'
 
-import Legenda from '../../images/Legenda/Legenda.png'
+import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
 import ContainerQuarto from "../../../components/Container Quarto/containerQuarto";
 import Header from "../../../components/Header/headerUser";
@@ -9,7 +9,7 @@ import Footer from "../../../components/Footer/footer";
 
 
 
-export default function SelecQuarto() {
+export default function SelecQuarto6() {
     return(
         <>
 
@@ -23,9 +23,9 @@ export default function SelecQuarto() {
             <h2>Selecione a capacidade do quarto:</h2>
             <div className="centralizarButtons">
                 <div className="botaoQuartos">
-                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" /></a>
-                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="6 Lugares" /></a>
-                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="10 Lugares" /></a>
+                <Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" />
+                <Button caminho="selecionar-quarto-6-vagas" classname="button" insideText="6 Lugares" />
+                <Button caminho="selecionar-quarto-10-vagas" classname="button" insideText="10 Lugares" />
                 </div>
             </div>
         </div>
@@ -40,6 +40,11 @@ export default function SelecQuarto() {
         <div className="linha">
             <ContainerQuarto quarto='Quarto 3'/>
             <ContainerQuarto quarto='Quarto 4'/>
+        </div>
+
+        <div className="linha">
+            <ContainerQuarto quarto='Quarto 5'/>
+            <ContainerQuarto quarto='Quarto 6'/>
         </div>
 
         <Footer />
