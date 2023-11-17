@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Inicio/inicio";
-import SelecQuarto from "./pages/SelecionarQuarto/selecQuarto";
+import SelecQuarto from "./pages/SelecionarQuarto/4 vagas/selecQuarto";
 import Cadastro from "./pages/Cadastro/cadastro";
 
 export default function AppRoutes() {
