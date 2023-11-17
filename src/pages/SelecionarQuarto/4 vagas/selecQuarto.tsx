@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import './selec.css'
 
 import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
@@ -22,7 +22,7 @@ export default function SelecQuarto() {
             <h2>Selecione a capacidade do quarto:</h2>
             <div className="centralizarButtons">
                 <div className="botaoQuartos">
-                    <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" /></a>
+                    <a href=""><Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" /></a>
                     <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="6 Lugares" /></a>
                     <a href="http://google.com"><Button caminho="selecionar-quarto" classname="button" insideText="10 Lugares" /></a>
                 </div>
