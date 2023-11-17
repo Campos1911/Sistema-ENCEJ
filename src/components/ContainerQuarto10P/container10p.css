@@ -1,3 +1,7 @@
+* {
+    color: #000;
+}
+
 .centralizarPg10 {
     display: flex;
     flex-direction: column;
@@ -19,7 +23,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 13.19px;
-    color: #000;
     margin-bottom: 50px;
     align-items: center;
     justify-content: center;
@@ -27,7 +30,6 @@
 }
 
 .title h1 {
-    color: #000;
     text-align: center;
 }
 

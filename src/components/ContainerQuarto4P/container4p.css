@@ -1,3 +1,7 @@
+* {
+    color: #000;
+}
+
 .centralizarPg4 {
     display: flex;
     flex-direction: column;
