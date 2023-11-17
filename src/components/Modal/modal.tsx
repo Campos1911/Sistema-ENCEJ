@@ -1,20 +1,16 @@
 import React from 'react';
 import "./modal.css"
 
-export default function Modal({isOpen}:{isOpen:boolean}) {
-    
+export default function Modal({isOpen, children}:{children:React.ReactNode, isOpen:boolean}) {
     if (isOpen) {
         return (
-            <div className="centralizarModal">
+            <div className="modal">
                 <div className="modalContent">
-                    <h1>TESTE</h1>
+                        {children}
+                    </div>
                 </div>
-            </div>
         )
     }
-    
-    {
-        return null;
-    }
 
+    return null
 }
