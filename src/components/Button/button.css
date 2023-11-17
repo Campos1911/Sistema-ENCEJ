@@ -8,6 +8,7 @@ button {
     border-radius: 5px;
     transition: .4s;
     color: black;
+    line-height: 24px;
 }
 
 button:hover {
@@ -19,6 +20,7 @@ button:hover {
     border-radius: 5px;
     transition-duration: 0.4s;
     color: #C10046;
+    line-height: 24px;
     transform: scale(1.2);
     cursor: pointer;
 }
