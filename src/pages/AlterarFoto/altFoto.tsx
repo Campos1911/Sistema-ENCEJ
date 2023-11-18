@@ -1,47 +1,46 @@
-import React, { useEffect }  from 'react';
+import React from "react";
 import './style.css'
 
 import Footer from "../../components/Footer/footer";
 import ImageEdit from '../../../src/images/Organizadores/imageEdit.png'
-import PicPlaceHolder from '../../../src/images/Organizadores/userHolder.jpg'
 import Button from '../../components/Button/button';
+import Avatar from "../../images/Organizadores/Avatar.jpg";
 
-export default function AlterarFoto () {
-    return (
-        <>
+export default function AlterarFoto() {
+    return(
         
-            <section className="centralizarTitulo">
+        <>
+            <div className="centralizarTitulo">
                 <h1><strong>Alterar foto e Empresa Junior</strong></h1>
-            </section>
+            </div>
 
-                /**ESTILIZA O CIRCULO COM A IMAGEM PLACEHOLDER DE AVATAR**/
-                <section className="centralizarUserHolder">
-                    <image src={PicPlaceHolder} alt="Foto de Usuário Temporária"/>
-                <section/>
-
-                /**CRIA O ÍCONE COM INPUT DE FILE PICTURE**/
-                <label for="selecionarFoto" className="modelaIcone">
-                    <input className="inputStyle" type="file" id="selecionarFoto" accept="image/png, image/jpeg" name="filename" onChange={handlePicChange}/>
-                    <image src={ImageEdit} alt="Ícone de Edição"/>
-                </label>
-
-                /**ESTILIZA E ALTERA A FOTO PARA A QUE FOI SELECIONADA, INTEGRAR IMAGEMSELECIONADA**/
-                <div className="fotoCircular">
-                    <img id="imagemSelecionada" src={imagemSelecionada} alt="Foto Selecionada" />
+                /**ESTILIZA O CIRCULO COM A IMAGEM**/
+                <div className="centralizarUserPic">
+                    <img src={Avatar} alt="Foto de Usuário"/>
                 </div>
 
+                /**CRIA O ÍCONE FILE PICTURE**/
+                <img className="modelaIcone" src={ImageEdit} alt="Ícone de Edição">
+
                 /**SELETOR DE EJ, INTEGRAR NOMEEJ E HOLDERNAMECHANGE**/
-                <section className="centralizarSeletor">
+                <div className="centralizarSeletor">
                     <form>
-                        <select value={nomeEJ} onChange={holderNameChange}> 
-                            <option value="">Selecione sua Empresa Junior</option>
-                            <option value="opcao1">Opção 1</option>
-                            <option value="opcao2">Opção 2</option>
-                            <option value="opcao3">Opção 3</option>
-                            <option value="opcao4">Opção 4</option>
+                        <select> 
+                            <option value=""> Selecione sua Empresa Junior </option>
+                            <option value="opcao1"> Adapti Soluções Web </option>
+                            <option value="opcao2">Alimentares</option>
+                            <option value="opcao3">Archipolis</option>
+                            <option value="opcao4">Biológica</option>
+                            <option value="opcao5">BiomES</option>
+                            <option value="opcao6">Cinética</option>
+                            <option value="opcao7">CJA</option>
+                            <option value="opcao8">Click</option>
+                            <option value="opcao9">Constat</option>
+                            <option value="opcao10">CT Júnior</option>
+                            <option value="opcao11">Dinamec</option>
                         </select>
                     </form>
-                </section>
+                </div>
 
             <div className="centralizarButtons">
                 <Button classname='bttPic' insideText='Salvar'/>

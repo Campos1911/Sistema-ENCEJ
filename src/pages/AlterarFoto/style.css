@@ -8,7 +8,7 @@
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   }
 
-.centralizarUserHolder {
+.centralizarUserPic {
     width: 245px;
     height: 245px;
     border-radius: 9,999px;
@@ -34,16 +34,6 @@
     cursor: pointer;
   }
 
-.inputStyle {
-    display: none;
-}
-
-.fotoCircular {
-    max-width: 245px;
-    max-height: 245px;
-    border-radius: 9,999px;
-}
-
 .centralizarSeletor {
         background-color: #FFF;
         border: none;
@@ -52,6 +42,7 @@
         border-radius: 5px;
         padding-left: 8px;
         margin-bottom: 18px;
+        color: black;
 }
 
 .centralizarButtons {
