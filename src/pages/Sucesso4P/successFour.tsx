@@ -14,10 +14,10 @@ export default function Sucesso4P() {
             <h1><strong>Sucesso!</strong></h1>
         </section>
 
-        <Container4P username='CarlosTeste' empresaJ='CT Júnior' className="centralizaContainer" />
+        <Container4P username='CarlosTeste' empresaJ='CT Júnior'/>
 
         <div className='centralizarButton'>
-            <Button classname='bttBack' insideText='Voltar'/>
+            <Button caminho="selecionar-quarto" classname='bttBack' insideText='Voltar'/>
         </div>
 
       </>
