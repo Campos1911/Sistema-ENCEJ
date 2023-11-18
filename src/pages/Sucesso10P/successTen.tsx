@@ -19,7 +19,7 @@ export default function Sucesso10P() {
         </div>
 
         <div className='centralizarButton'>
-            <Button classname='bttBack' insideText='Voltar'/>
+            <Button caminho="selecionar-quarto" classname='bttBack' insideText='Voltar'/>
         </div>
 
       </>

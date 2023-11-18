@@ -3,7 +3,7 @@ import './selec.css'
 
 import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
-import Container6Quarto from "../../../components/Popup Quarto/container6Q/container6Quarto
+import Container6Quarto from "../../../components/Popup Quarto/popup6Q/container6Quarto";
 import Header from "../../../components/Header/headerUser";
 import Footer from "../../../components/Footer/footer";
 
