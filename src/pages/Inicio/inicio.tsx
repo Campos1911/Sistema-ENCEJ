@@ -1,5 +1,6 @@
 import React from 'react';
 import './inicio.css'
+import { useNavigate } from 'react-router-dom'
 
 /**IMPORT DAS IMAGENS**/
 import CTJLogo from '../../images/Organizadores/ctj.jpg'
@@ -14,7 +15,14 @@ import Footer from '../../components/Footer/footer';
 /**FUNÇÃO PARA MUDAR DE PÁGINA AO CLICAR NO BOTÃO --> MUDAR PARA UM ARQUIVO ESPECÍFICO**/
 
 export default function Home() {
-    return (
+    
+    const navigate = useNavigate()
+
+    const handleRedirectRegister = () => {
+      return navigate("/cadastro")
+    }
+
+  return (
       <>
       <div className="centralizar-pg">
 
@@ -27,6 +35,7 @@ export default function Home() {
         <section className="inputs-section">
           <Input classname='username' type='text' placeh='carlos.rodriguez'/>
           <Input classname='password' type='password' placeh='**************'/>
+          <p  onClick={handleRedirectRegister} className='register'>Ainda não possui conta? clique aqui para REGISTRAR-SE</p>
         </section>
 
         <Button caminho="boas-vindas" classname='bttLogin' insideText='Entrar'/>
