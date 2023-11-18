@@ -22,7 +22,7 @@ export default function Cadastro() {
                         <Input type="password" placeh="Confirme sua senha" classname="password"/>
                     </form>
 
-                    <Button caminho="selecionar-quarto" insideText="Registrar" classname="bttnCadastro" />
+                    <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
 
                     <Footer />
             </div>
