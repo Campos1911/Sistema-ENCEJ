@@ -1,3 +1,18 @@
+.divisoria {
+    width: 100%;
+}
+
+.line {
+    width: 60%;
+    opacity: 0.4;
+    display: block;
+    margin: 0 auto;
+}
+
+.divisoriaDois {
+    height: 35px;
+}
+
 .boxLegenda {
     display: flex;
     justify-content: center;
@@ -16,8 +31,10 @@
 }
 
 .selecCapacidade h2{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 32px;
+    line-height: 38.32px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;;
 }
 
 .centralizarButtons {

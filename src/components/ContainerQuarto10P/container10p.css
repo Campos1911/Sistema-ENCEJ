@@ -1,0 +1,80 @@
+* {
+    color: #000;
+}
+
+.centralizarPg4 {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center ;
+}
+
+.boxRoom {
+    width: 564px;
+    height: 750px;
+    border-radius: 6px;
+    gap: 40px;
+    background-color: #FFF;
+}
+
+.title {
+    display: flex;
+    flex-direction: space-between;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 13.19px;
+    color: #000;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.title h1 {
+    color: #000;
+}
+
+.styleEmpty {
+    width: 79;
+    height: 21px;
+    margin-right: 50px;
+}
+
+.fotoUsuario {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.infos {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 16px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #000;
+}
+    
+.infos h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
+
+.item {
+    display: flex;
+    margin: 30px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}

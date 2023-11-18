@@ -22,10 +22,17 @@
     flex-direction: column;
     justify-content: center;
     height: 160px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28.8px;
+    line-height: 33.75px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 .columInfos h1{
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.25px;
 }
 
 .logoEncejHeader {
