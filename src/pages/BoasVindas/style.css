@@ -1,0 +1,50 @@
+.centralizarTitulo {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 56.25px;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}
+
+.centralizarParagrafo {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 24px;
+  color: #FFF;
+  font-weight: 400;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  margin: 8px 240px;
+}
+
+.centralizarButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #C10046;
+  color: #FFF;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #ec4e88;
+  color: #FFF;
+  padding: 20px 40px;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #ec4e88;
+  color: #FFF;
+  padding: 20px 40px;
+  transform: scale(1);
+  cursor: pointer;
+}

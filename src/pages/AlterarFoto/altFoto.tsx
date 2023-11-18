@@ -43,7 +43,7 @@ export default function AlterarFoto() {
                 </div>
 
             <div className="centralizarButtons">
-                <Button classname='bttPic' insideText='Salvar'/>
+                <Button caminho="selecionar-quarto" classname='bttPic' insideText='Salvar'/>
             </div>
       
             <Footer />

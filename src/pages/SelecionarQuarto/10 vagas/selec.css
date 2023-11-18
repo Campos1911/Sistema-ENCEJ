@@ -1,0 +1,81 @@
+.divisoria {
+    width: 100%;
+}
+
+.line {
+    width: 60%;
+    opacity: 0.4;
+    display: block;
+    margin: 0 auto;
+}
+
+.divisoriaDois {
+    height: 35px;
+}
+
+.boxLegenda {
+    display: flex;
+    justify-content: center;
+}
+
+.legenda {
+    height: 38px;
+}
+
+.selecCapacidade {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.selecCapacidade h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.32px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.centralizarButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.botaoQuartos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.button {
+    background-color: #C10046;
+    color: #FFF;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #ec4e88;
+    color: #FFF;
+    padding: 20px 40px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #ec4e88;
+    color: #FFF;
+    padding: 20px 40px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 82px;
+}
+
