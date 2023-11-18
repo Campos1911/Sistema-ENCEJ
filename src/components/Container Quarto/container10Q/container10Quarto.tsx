@@ -27,7 +27,7 @@ export default function Container10Quarto({quarto}:{quarto: string}) {
                         </div>
                         <div className="boxButtons">
                             <Button caminho="#" classname="button10Q" insideText="Confirmar"></Button>
-                            <button onClick={() => {setModal(false)}}>Voltar</button>
+                            <button className="button10Q" onClick={() => {setModal(false)}}>Voltar</button>
                         </div>
                     </Modal>
                 
