@@ -26,7 +26,7 @@ export default function Container4Quarto({quarto}:{quarto: string}) {
                             AQUI VEM A CAIXA DE DETALHES
                         </div>
                         <div className="boxButtons">
-                            <button>Confirmar</button>
+                            <Button caminho="boas-vindas" classname="button4Q" insideText="Confirmar"></Button>
                             <button onClick={() => {setModal(false)}}>Voltar</button>
                         </div>
                     </Modal>
