@@ -2,14 +2,13 @@ import React, { useEffect }  from 'react';
 import './style.css'
 
 import Footer from "../../components/Footer/footer";
-import ImageEdit from '../../../src/images/Organizadores/imageEdit.png'
-import PicPlaceHolder from '../../../src/images/Organizadores/userHolder.jpg'
+import ImageEdit from '../../../src/images/Organizadores/imageEdit.png';
+import PicPlaceHolder from '../../../src/images/Organizadores/userHolder.jpg';
 import Button from '../../components/Button/button';
 
-export default function AlterarFoto () {
-    return (
+export default function AlterarFoto() {
+    return(
         <>
-        
             <section className="centralizarTitulo">
                 <h1><strong>Alterar foto e Empresa Junior</strong></h1>
             </section>
@@ -48,8 +47,6 @@ export default function AlterarFoto () {
             </div>
       
             <Footer />
-        
         </>
-
     );
-}
+} 
