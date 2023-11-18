@@ -6,13 +6,14 @@
 
 .boxUser {
     display: flex;
-    margin: 20px;
+    margin: 10px;
 }
 
 .fotoUser {
     width: 170px;
     height: 160px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .columInfos {
@@ -34,7 +35,7 @@
     line-height: 56.25px;
 }
 
-.logoEncej {
+.logoEncejHeader {
     height: 120px;
     margin-right: 100px;
     margin-top: 30px;

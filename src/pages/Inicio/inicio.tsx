@@ -1,23 +1,32 @@
 import React from 'react';
-import './style.css'
+import './inicio.css'
+import { useNavigate } from 'react-router-dom'
 
 /**IMPORT DAS IMAGENS**/
 import CTJLogo from '../../images/Organizadores/ctj.jpg'
 import JunioresLogo from '../../images/Organizadores/juniores.jpg'
-import Logo from '../../../src/images/Logo/Logo.jpg'
+import Encej from '../../../src/images/Logo/Logo.jpg'
 
 /**IMPORT DOS COMPONENTES**/
 import Input from '../../components/Input/input'
 import Button from '../../components/Button/button';
+import Footer from '../../components/Footer/footer';
 
 /**FUNÇÃO PARA MUDAR DE PÁGINA AO CLICAR NO BOTÃO --> MUDAR PARA UM ARQUIVO ESPECÍFICO**/
 
 export default function Home() {
-    return (
-        <>
+    
+    const navigate = useNavigate()
+
+    const handleRedirectRegister = () => {
+      return navigate("/cadastro")
+    }
+
+  return (
+      <>
       <div className="centralizar-pg">
 
-        <img className='logoEncej' src={Logo} alt="logoEncej" />
+        <img className='logoEncej' src={Encej} alt="logoEncej" />
 
         <h2>Reserva de Quartos</h2>
 
@@ -26,14 +35,12 @@ export default function Home() {
         <section className="inputs-section">
           <Input classname='username' type='text' placeh='carlos.rodriguez'/>
           <Input classname='password' type='password' placeh='**************'/>
+          <p  onClick={handleRedirectRegister} className='register'>Ainda não possui conta? clique aqui para REGISTRAR-SE</p>
         </section>
 
-        <Button classname='bttLogin' insideText='Entrar'/>
+        <Button caminho="boas-vindas" classname='bttLogin' insideText='Entrar'/>
 
-        <div className="logo-organizadores">
-          <img className='ctj' src={CTJLogo} alt="ctjunior logo" />
-          <img className='juniores' src={JunioresLogo} alt="juniores logo" />
-        </div>
+        <Footer />
 
       </div>
       </>

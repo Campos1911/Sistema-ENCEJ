@@ -1,7 +1,3 @@
-* {
-    transform: scale(0.95);
-}
-
 h2 {
     text-align: center;
     font-size: 48px;
@@ -21,11 +17,15 @@ p {
     justify-content: center;
     text-align: center;
     align-items: center;
+    transform: scale(0.8);
 }
 
 .logoEncej {
+    margin-top: 10px;
     margin-bottom: 20px;
+    width: 400px;
 }
+
 
 .inputs-section{
     display: flex;
@@ -42,4 +42,10 @@ p {
 
 .logo-organizadores img{
     width: 310px;
+}
+
+.register {
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
 }
