@@ -14,19 +14,19 @@ export default function AlterarFoto() {
                 <h1><strong>Alterar foto e Empresa Junior</strong></h1>
             </div>
 
-                /**ESTILIZA O CIRCULO COM A IMAGEM**/
+                {/**ESTILIZA O CIRCULO COM A IMAGEM*/}
                 <div className="centralizarUserPic">
-                    <img src={Avatar} alt="Foto de Usuário"/>
+                    <img className="userPic" src={Avatar} alt="Foto de Usuário"/>
+                    {/**CRIA O ÍCONE FILE PICTURE**/}
+                    <img className="modelaIcone" src={ImageEdit} alt="Ícone de Edição"/>
                 </div>
 
-                /**CRIA O ÍCONE FILE PICTURE**/
-                <img className="modelaIcone" src={ImageEdit} alt="Ícone de Edição">
-
-                /**SELETOR DE EJ, INTEGRAR NOMEEJ E HOLDERNAMECHANGE**/
+                {/**SELETOR DE EJ, INTEGRAR NOMEEJ E HOLDERNAMECHANGE**/}
                 <div className="centralizarSeletor">
                     <form>
+                    
                         <select> 
-                            <option value=""> Selecione sua Empresa Junior </option>
+                        
                             <option value="opcao1"> Adapti Soluções Web </option>
                             <option value="opcao2">Alimentares</option>
                             <option value="opcao3">Archipolis</option>
