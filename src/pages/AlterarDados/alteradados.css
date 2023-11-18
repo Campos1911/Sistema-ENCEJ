@@ -1,3 +1,11 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .centralizar {
     display: flex;
     flex-direction: column;
@@ -5,10 +13,7 @@
     align-items: center;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+
+.text h1 {
+    color: white;
 }

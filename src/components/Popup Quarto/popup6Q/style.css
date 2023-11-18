@@ -48,6 +48,11 @@
     font-size: 14px;
 }
 
+.boxInfo {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 .boxButtons {
     display: flex;
     column-gap: 12px;

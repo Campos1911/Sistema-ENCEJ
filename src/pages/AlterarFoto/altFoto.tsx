@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import './altFoto.css'
 
 import Footer from "../../components/Footer/footer";
 import ImageEdit from '../../../src/images/Organizadores/imageEdit.png'
@@ -11,7 +11,7 @@ export default function AlterarFoto() {
         
         <>
             <div className="centralizarTitulo">
-                <h1><strong>Alterar foto e Empresa Junior</strong></h1>
+                <h1 color="white"><strong>Alterar foto e Empresa Junior</strong></h1>
             </div>
 
                 {/**ESTILIZA O CIRCULO COM A IMAGEM*/}

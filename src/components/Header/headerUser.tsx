@@ -20,7 +20,7 @@ export default function Header({caminho, username, empresaJ}:{caminho:string, us
     <header className="header1">
 
         <div className="boxUser">
-            <img className="fotoUser" src={Avatar} alt="Foto de Perfil" />
+            <img onClick={handleRedirect} className="fotoUser" src={Avatar} alt="Foto de Perfil" />
             <div className="columInfos">
                 <h1>{username}</h1>
                 <p>{empresaJ}</p>

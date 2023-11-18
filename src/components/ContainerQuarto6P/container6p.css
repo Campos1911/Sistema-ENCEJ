@@ -1,11 +1,7 @@
-* {
-    color: #000;
-}
-
-.centralizarPg4 {
+.centralizarPg6 {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 70vh;
     justify-content: center;
     align-items: center ;
 }

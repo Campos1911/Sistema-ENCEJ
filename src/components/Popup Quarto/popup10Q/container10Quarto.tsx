@@ -3,6 +3,7 @@ import Button from "../../Button/button";
 import "./style.css";
 import Modal from "../../Modal/modal";
 import { useState } from "react";
+import ContainerSucesso from "../../ContainerQuarto10P/containerQuarto10P";
 
 export default function Container10Quarto({quarto}:{quarto: string}) {
     
@@ -23,10 +24,10 @@ export default function Container10Quarto({quarto}:{quarto: string}) {
                     <Modal isOpen={modal}>
                         <h1>Revise as informações do quarto antes de confirmar</h1>
                         <div className="boxInfo">
-                            AQUI VEM A CAIXA DE DETALHES 10
+                            <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior" />
                         </div>
                         <div className="boxButtons">
-                            <Button caminho="#" classname="button10Q" insideText="Confirmar"></Button>
+                            <Button caminho="sucesso-10-vagas" classname="button10Q" insideText="Confirmar"></Button>
                             <button className="button10Q" onClick={() => {setModal(false)}}>Voltar</button>
                         </div>
                     </Modal>

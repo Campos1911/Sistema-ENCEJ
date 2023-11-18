@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .logo-organizadores {
@@ -12,7 +12,7 @@
 
 .ctj {
     max-width: 268px;
-    margin-top: 30px;
+    margin-top: 20px;
     max-height: 61px;
     margin-right: 70px;
 }

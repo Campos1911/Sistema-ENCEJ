@@ -10,6 +10,7 @@ import BoasVindas from "./pages/BoasVindas/boasVindas";
 import Sucesso4P from "./pages/Sucesso4P/successFour";
 import Sucesso6P from "./pages/Sucesso6P/successSix";
 import Sucesso10P from "./pages/Sucesso10P/successTen";
+import AlterarFoto from "./pages/AlterarFoto/altFoto";
 
 export default function AppRoutes() {
     return (
@@ -19,6 +20,7 @@ export default function AppRoutes() {
                 <Route path="/cadastro" element={<Cadastro />}></Route>
                 <Route path="/boas-vindas" element={<BoasVindas />}></Route>
                 <Route path="/alterar-dados" element={<AlterarDados />}></Route>
+                <Route path="/alterar-foto" element={<AlterarFoto />}></Route>
                 <Route path="/selecionar-quarto" element={<SelecQuarto4 />}></Route>
                 <Route path="/selecionar-quarto-6-vagas" element={<SelecQuarto6 />}></Route>
                 <Route path="/selecionar-quarto-10-vagas" element={<SelecQuarto10 />}></Route>

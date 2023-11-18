@@ -21,7 +21,7 @@ export default function AlterarDados() {
                 <Input type="password" placeh="Insira sua senha" classname="password" />
                 <Input type="text" placeh="Insira seu nome atualizado" classname="newUsername" />
                 <Input type="text" placeh="Insira seu novo meio de Contato" classname="newContact" />
-                <Button caminho="selecionar-quarto" insideText="Salvar" classname="bttn1" />
+                <Button caminho="alterar-foto" insideText="Salvar" classname="bttn1" />
             </form>
 
             <Footer />
