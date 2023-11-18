@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../Button/button";
-import "./style.css";
+import "../popup10Q/style.css";
 import Modal from "../../Modal/modal";
 import { useState } from "react";
 import ContainerSucesso from "../../ContainerQuarto6P/containerQuarto6P";

@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './successTen.css'
 
 import Container10P from '../../components/ContainerQuarto10P/containerQuarto10P';
 import Button from '../../components/Button/button';

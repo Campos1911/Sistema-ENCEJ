@@ -3,8 +3,6 @@ import './inicio.css'
 import { useNavigate } from 'react-router-dom'
 
 /**IMPORT DAS IMAGENS**/
-import CTJLogo from '../../images/Organizadores/ctj.jpg'
-import JunioresLogo from '../../images/Organizadores/juniores.jpg'
 import Encej from '../../../src/images/Logo/Logo.jpg'
 
 /**IMPORT DOS COMPONENTES**/

@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'
+import './successFour.css'
 
 import Container4P from '../../components/ContainerQuarto4P/containerQuarto4P';
 import Button from '../../components/Button/button';
