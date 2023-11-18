@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "../Button/button";
+import Button from "../../Button/button";
 import "./style.css";
-import Modal from "../Modal/modal";
+import Modal from "../../Modal/modal";
 import { useState } from "react";
 
-export default function ContainerQuarto({quarto}:{quarto: string}) {
+export default function Container6Quarto({quarto}:{quarto: string}) {
     
     const [modal, setModal] = useState(false) /** useState para ligar ou desligar visualização do modal **/
 

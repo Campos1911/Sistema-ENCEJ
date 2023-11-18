@@ -3,7 +3,7 @@ import './selec.css'
 
 import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
-import ContainerQuarto from "../../../components/Container Quarto/containerQuarto";
+import Container10Quarto from "../../../components/Container Quarto/container10Q/container10Quarto";
 import Header from "../../../components/Header/headerUser";
 import Footer from "../../../components/Footer/footer";
 
@@ -33,13 +33,13 @@ export default function SelecQuarto10() {
         
         {/**DIV'S QUE SEPARAM OS CONTAINERS DE QUARTO EM LINHAS**/}
         <div className="linha">
-            <ContainerQuarto quarto='Quarto 1'/>
-            <ContainerQuarto quarto='Quarto 2'/>
+            <Container10Quarto quarto='Quarto 1'/>
+            <Container10Quarto quarto='Quarto 2'/>
         </div>
 
         <div className="linha">
-            <ContainerQuarto quarto='Quarto 3'/>
-            <ContainerQuarto quarto='Quarto 4'/>
+            <Container10Quarto quarto='Quarto 3'/>
+            <Container10Quarto quarto='Quarto 4'/>
         </div>
 
         <Footer />
