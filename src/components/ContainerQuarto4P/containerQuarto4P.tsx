@@ -1,7 +1,8 @@
 import React from "react";
 import "./container4p.css";
 
-import Avatar from "../../images/Organizadores/Avatar.jpg" 
+import Avatar from "../../images/Organizadores/Avatar.jpg"
+import Empty from "../../images/Organizadores/Empty.jpg" 
 
 
 export default function ContainerSucesso({username, empresaJ}:{username:string, empresaJ:string}) {
@@ -15,6 +16,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
         <div className="boxRoom">
             <div className="title">
                 <h1>Você está no Quarto 5!</h1>
+                <img className="styleEmpty" src={Empty} alt="Empty" />
             </div>
 
             {/**ICONE STATUS DO QUARTO **/}
@@ -23,16 +25,16 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
-                    <h2>{username}Carlos Teste</h2>
-                    <p>{empresaJ}CT Junior</p>
+                    <h2>{username}</h2>
+                    <p>{empresaJ}</p>
                 </div>
             </div>
 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
-                    <h2>{username}Carlos Teste</h2>
-                    <p>{empresaJ}CT Junior</p>
+                    <h2>{username}</h2>
+                    <p>{empresaJ}</p>
                 </div>
             </div>
         </div>
@@ -41,16 +43,16 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
-                    <h2>{username}Carlos Teste</h2>
-                    <p>{empresaJ}CT Junior</p>
+                    <h2>{username}</h2>
+                    <p>{empresaJ}</p>
                 </div>
             </div>
 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
-                    <h2>{username}Carlos Teste</h2>
-                    <p>{empresaJ}CT Junior</p>
+                    <h2>{username}</h2>
+                    <p>{empresaJ}</p>
                 </div>
             </div>
         </div>
