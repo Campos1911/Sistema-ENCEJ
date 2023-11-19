@@ -24,7 +24,7 @@ export default function AlterarDados() {
                 <Button caminho="alterar-foto" insideText="Salvar" classname="bttn1" />
             </form>
 
-            <Footer />
+            <Footer classname="footerDados"/>
             
         </>
     );

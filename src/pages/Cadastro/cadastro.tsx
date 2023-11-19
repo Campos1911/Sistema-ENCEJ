@@ -24,7 +24,7 @@ export default function Cadastro() {
 
                     <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
 
-                    <Footer />
+                    <Footer classname="footerCadastro"/>
             </div>
         </>
     );
