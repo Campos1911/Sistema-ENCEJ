@@ -39,7 +39,7 @@ export default function Home() {
         <Button caminho="boas-vindas" classname='bttLogin' insideText='Entrar'/>
 
         <div className="responsiveFooter">
-          <Footer />
+          <Footer classname='footerLogin'/>
         </div>
 
       </div>

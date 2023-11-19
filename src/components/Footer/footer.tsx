@@ -4,7 +4,7 @@ import JunioresLogo from '../../images/Organizadores/juniores.jpg';
 import './style.css';
 
 
-export default function Footer() {
+export default function Footer({classname}:{classname:string}) {
     return (
         <>
         <div className="centralizar">

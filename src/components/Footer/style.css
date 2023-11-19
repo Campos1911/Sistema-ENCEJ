@@ -22,14 +22,12 @@
     margin-left: 70px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
     .ctj {
         margin-right: 0px;
-        margin-left: 100px;
     }
 
     .juniores {
-        margin-right: 80px;
-        margin-left: 00px;
+        margin-left: 0px;
     }
 }

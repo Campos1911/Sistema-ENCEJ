@@ -47,7 +47,7 @@ export default function SelecQuarto6() {
             <Container6Quarto quarto='Quarto 6'/>
         </div>
 
-        <Footer />
+        <Footer classname="footer6vagas"/>
 
         </>
     );

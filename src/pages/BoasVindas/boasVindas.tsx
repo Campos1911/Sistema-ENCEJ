@@ -26,7 +26,7 @@ export default function BoasVindas () {
           <Button caminho="selecionar-quarto" classname='bttWelcome' insideText='Ver quartos'/>
         </div>
       
-      <Footer />
+      <Footer classname='footerBoasvindas'/>
         
     </>
   );
