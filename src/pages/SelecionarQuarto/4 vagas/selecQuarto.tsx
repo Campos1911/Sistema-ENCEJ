@@ -1,5 +1,4 @@
 import React from "react";
-import './selec.css'
 
 import Legenda from '../../../images/Legenda/Legenda.png'
 import Button from "../../../components/Button/button";
