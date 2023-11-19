@@ -70,6 +70,11 @@
     margin: 30px;
 }
 
+.item p {
+    background-color: #FFF;
+    color: #000;
+}
+
 .column {
     display: flex;
     justify-content: space-between;
