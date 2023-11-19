@@ -21,3 +21,13 @@
     width: 310px;
     margin-left: 70px;
 }
+
+@media (max-width: 600px) {
+    .ctj {
+        margin-right: 0px;
+    }
+
+    .juniores {
+        margin-left: 0px;
+    }
+}
