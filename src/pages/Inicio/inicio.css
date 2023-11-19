@@ -39,7 +39,7 @@ h2 {
     margin-bottom: 80px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .inputs-section {
         transform: scale(0.8);
     }

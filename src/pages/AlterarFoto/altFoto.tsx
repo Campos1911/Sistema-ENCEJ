@@ -46,7 +46,9 @@ export default function AlterarFoto() {
                 <Button caminho="selecionar-quarto" classname='bttPic' insideText='Salvar'/>
             </div>
       
-            <Footer classname="footerAltfoto"/>
+            <div className="responsiveFooter">
+                <Footer classname="footerAltfoto"/>
+            </div>
         </>
     );
 } 
