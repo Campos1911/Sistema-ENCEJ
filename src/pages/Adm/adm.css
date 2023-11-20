@@ -1,0 +1,39 @@
+.centralize-adm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-adm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.box-adm .adm-page, .adm-description{
+    color: #C10046;
+}
+
+.bttn-adm1, .bttn-adm2, .bttn-adm3 {
+    background-color: #C10046;
+    color: #fff;
+}
+
+.bttn-adm1:hover, .bttn-adm2:hover, .bttn-adm3:hover {
+    background-color: #C10046;
+    color: #fff;
+}
+
+.box-buttons-adm {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.excluir-pessoa-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-excluir-pessoa-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.input-excluir-pessoa-center p {
+    margin-bottom: 60px;
+}
+
+.input-excluir-pessoa-center h1 {
+    font-size: 48px;
+}

@@ -1,0 +1,23 @@
+.excluir-quarto-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-excluir-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.input-excluir-center p {
+    margin-bottom: 60px;
+}
+
+.input-excluir-center h1 {
+    font-size: 48px;
+}
