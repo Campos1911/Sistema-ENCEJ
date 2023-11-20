@@ -1,4 +1,4 @@
-.header1 {
+.header1Mob {
     display: flex;
     justify-content: left;
     margin-left: 20px;
@@ -8,19 +8,19 @@
     height: 97px;
 }
 
-.boxUser {
+.boxUserMob {
     display: flex;
     justify-content: left;
 }
 
-.fotoUser {
+.fotoUserMob {
     width: 57px;
     height: 57px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.columInfos {
+.columInfosMob {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     margin-top: 20px;
 }
 
-.columInfos h1{
+.columInfosMob h1{
     font-weight: 700;
     font-size: 20px;
     line-height: 23.44px;

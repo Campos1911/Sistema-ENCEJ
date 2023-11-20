@@ -1,0 +1,38 @@
+.criar-quarto-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-vagas-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.input-vagas-center p {
+    margin-bottom: 60px;
+}
+
+.input-vagas-center h1 {
+    font-size: 48px;
+}
+
+@media (max-width: 375px) {
+    .criar-quarto-center {
+        transform: scale(0.6);
+    }
+
+    .input-vagas-center h1 {
+        font-size: 34px;
+    }
+
+    .padding-box-footer{
+        margin-top: 50px;
+    }
+
+}

@@ -11,6 +11,10 @@ import Sucesso4P from "./pages/Sucesso4P/successFour";
 import Sucesso6P from "./pages/Sucesso6P/successSix";
 import Sucesso10P from "./pages/Sucesso10P/successTen";
 import AlterarFoto from "./pages/AlterarFoto/altFoto";
+import Adm from "./pages/Adm/adm";
+import CriarQuarto from "./pages/Adm/CriarQuarto/criarQuarto";
+import ExcluirQuarto from "./pages/Adm/ExcluirQuarto/excluirQuarto";
+import ExcluirPessoa from "./pages/Adm/ExcluirPessoa/excluirPessoa";
 
 export default function AppRoutes() {
     return (
@@ -27,6 +31,10 @@ export default function AppRoutes() {
                 <Route path="/sucesso-4-vagas" element={<Sucesso4P></Sucesso4P>}></Route>
                 <Route path="/sucesso-6-vagas" element={<Sucesso6P></Sucesso6P>}></Route>
                 <Route path="/sucesso-10-vagas" element={<Sucesso10P></Sucesso10P>}></Route>
+                <Route path="/dev-page" element={<Adm></Adm>}></Route>
+                <Route path="/dev-page/excluir-pessoa" element={<ExcluirPessoa></ExcluirPessoa>}></Route>
+                <Route path="/dev-page/excluir-quarto" element={<ExcluirQuarto></ExcluirQuarto>}></Route>
+                <Route path="/dev-page/criar-quarto" element={<CriarQuarto></CriarQuarto>}></Route>
             </Routes>
         </Router>
     )
