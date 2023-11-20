@@ -50,6 +50,7 @@
   width: 430px;
   height: 40px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .centralizarSeletor {
