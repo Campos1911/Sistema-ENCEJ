@@ -23,10 +23,8 @@ export default function AlterarFoto() {
 
                 {/**SELETOR DE EJ, INTEGRAR NOMEEJ E HOLDERNAMECHANGE**/}
                 <div className="centralizarSeletor">
-                    <form>
-                    
-                        <select> 
-                        
+                        <select className="custom"> 
+                            <option disabled selected>Selecione sua Empresa Junior</option>
                             <option value="opcao1"> Adapti Soluções Web </option>
                             <option value="opcao2">Alimentares</option>
                             <option value="opcao3">Archipolis</option>
@@ -39,7 +37,6 @@ export default function AlterarFoto() {
                             <option value="opcao10">CT Júnior</option>
                             <option value="opcao11">Dinamec</option>
                         </select>
-                    </form>
                 </div>
 
             <div className="centralizarButtons">

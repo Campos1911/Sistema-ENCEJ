@@ -1,5 +1,7 @@
 .divisoria {
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .line {
@@ -20,10 +22,17 @@
 
 .legenda {
     height: 38px;
+    transition: transform .5s ease;
+}
+
+.legenda:hover {
+    height: 38px;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
 }
 
 .selecCapacidade {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +63,7 @@
     color: #FFF;
     padding: 20px 20px;
     font-size: 20px;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button:hover {

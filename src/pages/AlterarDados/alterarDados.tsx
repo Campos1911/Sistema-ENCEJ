@@ -11,7 +11,7 @@ export default function AlterarDados() {
             <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
 
             <section className="text">
-                <h1>Alteração de dados do Usuário</h1>
+                <h1>Alteração de dados do usuário</h1>
                 <p>Insira seus novos dados abaixo</p>
             </section>
 
@@ -20,7 +20,7 @@ export default function AlterarDados() {
                 <Input type="text" placeh="Insira seu nome" classname="username" />
                 <Input type="password" placeh="Insira sua senha" classname="password" />
                 <Input type="text" placeh="Insira seu nome atualizado" classname="newUsername" />
-                <Input type="text" placeh="Insira seu novo meio de Contato" classname="newContact" />
+                <Input type="text" placeh="Insira seu novo meio de contato" classname="newContact" />
                 <Button caminho="alterar-foto" insideText="Salvar" classname="bttn1" />
             </form>
 
