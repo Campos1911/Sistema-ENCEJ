@@ -4,12 +4,19 @@ import './style.css';
 import Header from "../../components/Header/headerUser";
 import Footer from "../../components/Footer/footer";
 import Button from '../../components/Button/button';
+import HeaderMobile from "../../components/HeaderMobile/headerMobile";
 
 export default function BoasVindas () {
   return (
     <>
+      <div className="headerResponsiva">
+        <HeaderMobile caminho="alterar-dados" username='Carlos Teste' empresaJ='CT Junior'/>
+      </div>
 
-      <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
+      <div className='headerDesktop'>
+        <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
+      </div>
+      
 
         <section className="centralizarTitulo">
           <h1><strong>Boas vindas, Carlos</strong></h1>
@@ -26,7 +33,9 @@ export default function BoasVindas () {
           <Button caminho="selecionar-quarto" classname='bttWelcome' insideText='Ver quartos'/>
         </div>
       
-      <Footer classname='footerBoasvindas'/>
+      <div className='footerResponsivo'>
+        <Footer classname='footerBoasvindas'/>
+      </div>
         
     </>
   );
