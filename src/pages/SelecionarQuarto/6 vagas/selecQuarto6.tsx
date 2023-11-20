@@ -5,6 +5,7 @@ import Button from "../../../components/Button/button";
 import Container6Quarto from "../../../components/Popup Quarto/popup6Q/container6Quarto";
 import Header from "../../../components/Header/headerUser";
 import Footer from "../../../components/Footer/footer";
+import Line from "../../../images/Organizadores/line.jpg"
 
 
 
@@ -13,6 +14,10 @@ export default function SelecQuarto6() {
         <>
 
         <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
+
+        <section className="divisoria">
+            <img className="line" src={Line} alt="divisórioa" />
+        </section>
         
         <section className="boxLegenda">
             <img className="legenda" src={Legenda} alt="legendaQuartos" />

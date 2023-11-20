@@ -13,6 +13,15 @@
     column-gap: 8px;
 }
 
+.rolagem {
+    overflow: auto;
+}
+
+.boxInfo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .verDetalhes {
     background-color: #c2c2c2;
     border-radius: 50px;

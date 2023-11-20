@@ -26,14 +26,14 @@ export default function Home() {
 
         <img className='logoEncej' src={Encej} alt="logoEncej" />
 
-        <h2>Reserva de Quartos</h2>
+        <h2>Reserva de quartos</h2>
 
         <p>Faça login para continuar</p>
 
         <section className="inputs-section">
           <Input classname='username' type='text' placeh='carlos.rodriguez'/>
           <Input classname='password' type='password' placeh='**************'/>
-          <p  onClick={handleRedirectRegister} className='register'>Ainda não possui conta? clique aqui para REGISTRAR-SE</p>
+          <p  onClick={handleRedirectRegister} className='register'>Ainda não possui conta? clique aqui e REGISTRE-SE</p>
         </section>
 
         <Button caminho="boas-vindas" classname='bttLogin' insideText='Entrar'/>
