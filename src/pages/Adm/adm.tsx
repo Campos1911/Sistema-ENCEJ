@@ -1,14 +1,21 @@
 import React from "react";
 import "./adm.css";
 import Header from "../../components/Header/headerUser";
+import HeaderMobile from "../../components/HeaderMobile/headerMobile";
 import Footer from "../../components/Footer/footer";
 import Button from "../../components/Button/button";
 
 export default function Adm() {
     return (
         <>
+            <div className="box-header-desktop">
             <Header caminho="dev-page" username="Admin" empresaJ="Administradores"></Header>
+            </div>
             
+            <div className="box-header-mobile">
+            <HeaderMobile caminho="dev-page" username="Admin" empresaJ="Administradores"></HeaderMobile>
+            </div>
+
             <div className="centralize-adm">
                 <div className="box-adm">
                     <h1 className="adm-page">Página de administrador</h1>
