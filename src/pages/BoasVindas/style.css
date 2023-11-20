@@ -82,7 +82,7 @@
   display: block;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .headerResponsiva {
     display: block;
 
@@ -115,6 +115,7 @@
 
   .footerResponsivo {
     transform: scale(0.6);
+    margin-left: 30px;
 }
 
 }
