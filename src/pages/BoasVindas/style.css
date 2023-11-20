@@ -40,7 +40,6 @@
 @media (max-width: 375px) {
   .headerResponsiva {
     display: block;
-
   }
 
   .headerDesktop {
@@ -69,52 +68,7 @@
   }
 
   .footerResponsivo {
-    transform: scale(0.6);
-}
-
-}
-
-.headerResponsiva {
-  display: none;
-}
-
-.headerDesktop {
-  display: block;
-}
-
-@media (max-width: 375px) {
-  .headerResponsiva {
-    display: block;
-
-  }
-
-  .headerDesktop {
-    display: none;
-  }
-
-  .centralizarTitulo {
-    font-size: 28px;
-    width: 248px;
-    height: 33px;
-    text-align: center;
-    margin-left: 63px;
-  }
-
-  .centralizarParagrafo {
-    font-size: 18px;
-    width: 328px;
-    height: 168px;
-    margin-left: 23.5px;
-    margin-bottom: 60px;
-  }
-
-  .centralizarButtons {
-    transform: scale(0.7);
-    margin-bottom: 50px;
-  }
-
-  .footerResponsivo {
-    transform: scale(0.6);
+    transform: scale(1.0);
 }
 
 }

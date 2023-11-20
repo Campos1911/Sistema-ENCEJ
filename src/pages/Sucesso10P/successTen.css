@@ -30,4 +30,20 @@
       justify-content: center;
       margin-top: 50px;
       margin-bottom: 50px;
+  }
+
+  @media (max-widht: 400px) {
+
+    .centralizaSuccess {
+      transform: scale(0.7);
     }
+  
+    .centralizaContainer {
+      transform: scale(0.7);
+    }
+  
+    .centralizarButton {
+      transform: scale(0.7);
+    }
+    
+  }
