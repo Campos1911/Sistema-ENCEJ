@@ -18,7 +18,10 @@ export default function ExcluirQuarto() {
                     <Button caminho="dev-page" classname="bttn-excluir-quarto" insideText="Excluir Quarto" ></Button>
                 </div>
             
-            <Footer classname="footer-excluir-quarto" ></Footer>
+            <div className="padding-footer-excluir">
+                <Footer classname="footer-excluir-quarto" ></Footer>
+            </div>
+            
             </div>
         </>
     );

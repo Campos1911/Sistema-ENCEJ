@@ -21,3 +21,18 @@
 .input-vagas-center h1 {
     font-size: 48px;
 }
+
+@media (max-width: 375px) {
+    .criar-quarto-center {
+        transform: scale(0.6);
+    }
+
+    .input-vagas-center h1 {
+        font-size: 34px;
+    }
+
+    .padding-box-footer{
+        margin-top: 50px;
+    }
+
+}

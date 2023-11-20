@@ -11,10 +11,6 @@ export default function Adm() {
             <div className="box-header-desktop">
             <Header caminho="dev-page" username="Admin" empresaJ="Administradores"></Header>
             </div>
-            
-            <div className="box-header-mobile">
-            <HeaderMobile caminho="dev-page" username="Admin" empresaJ="Administradores"></HeaderMobile>
-            </div>
 
             <div className="centralize-adm">
                 <div className="box-adm">

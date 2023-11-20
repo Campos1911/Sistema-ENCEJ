@@ -21,3 +21,21 @@
 .input-excluir-center h1 {
     font-size: 48px;
 }
+
+@media (max-width: 375px) {
+    .excluir-quarto-center {
+        transform: scale(0.6);
+    }
+
+    .input-excluir-center {
+        margin-top: 40px;
+    }
+
+    .input-excluir-center h1 {
+        font-size: 34px;
+    }
+
+    .padding-footer-excluir{
+        margin-top: 50px;
+    }
+}

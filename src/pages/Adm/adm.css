@@ -41,3 +41,15 @@
 .box-header-mobile {
     display: none;
 }
+
+@media (max-width: 375px) {
+    .centralize-adm {
+        transform: scale(0.6);
+    }
+
+    .box-adm {
+        padding-bottom: 40px;
+        margin-bottom: 150px;
+        margin-top: 0px;
+    }
+}

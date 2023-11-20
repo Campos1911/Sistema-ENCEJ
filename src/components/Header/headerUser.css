@@ -47,3 +47,52 @@
     margin-right: 100px;
     margin-top: 30px;
 }
+
+@media (max-width: 375px) {
+
+    .logoEncejHeader {
+        display: none;
+    }
+
+    .header1 {
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        width: 375px;
+        height: 97px;
+    }
+    
+    .boxUser {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .fotoUser {
+        width: 57px;
+        height: 57px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .columInfos {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+       
+        height: 19px;
+        font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        line-height: 18.75px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    
+    .columInfos h1{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: white;
+    }
+}

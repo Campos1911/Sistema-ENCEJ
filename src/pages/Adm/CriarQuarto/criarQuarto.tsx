@@ -18,7 +18,10 @@ export default function CriarQuarto() {
                     <Button caminho="dev-page" classname="bttn-enviar-quarto" insideText="Criar Quarto" ></Button>
                 </div>
             
-            <Footer classname="footer-criar-quarto" ></Footer>
+            <div className="padding-box-footer">
+                <Footer classname="footer-criar-quarto" ></Footer>
+            </div>
+            
             </div>
         </>
     )

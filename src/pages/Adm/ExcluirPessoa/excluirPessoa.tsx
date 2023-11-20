@@ -18,7 +18,10 @@ export default function ExcluirPessoa() {
                     <Button caminho="dev-page" classname="bttn-excluir-pessoa" insideText="Excluir Pessoa" ></Button>
                 </div>
             
-            <Footer classname="footer-excluir-pessoa" ></Footer>
+            <div className="padding-excluir-pessoa">
+                <Footer classname="footer-excluir-pessoa" ></Footer>
+            </div>
+
             </div>
 
         </>
