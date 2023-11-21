@@ -13,10 +13,8 @@
     margin-bottom: 60px;
 }
 
-.ajustaButton {
-    margin-top: 35px;
-    margin-bottom: 70px;
-}
+.responsividadeTitulo p {
+    margin-bottom: 30px;
 
 .boxInputs {
     display: flex;
@@ -29,6 +27,11 @@
     width: 300px;
     text-align: center;
     border-radius: 5px;
+}
+
+.responsividadeFooter {
+    margin-top: 20px;
+    transform: scale(1.25);
 }
 
 select {
