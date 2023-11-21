@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../Button/button";
-import "../popup10Q/style.css";
+import "./style.css";
 import Modal from "../../Modal/modal";
 import { useState } from "react";
 import ContainerSucesso from "../../ContainerQuarto4P/containerQuarto4P";
@@ -14,7 +14,7 @@ export default function Container4Quarto({quarto}:{quarto: string}) {
         <div className="box1">
                 <div className="center">
                     <h3>{quarto}</h3>
-                    <p>Disponível</p>
+                    <h4>Disponível</h4>
                 </div>
                 
                 <div className="bttBox">

@@ -93,5 +93,22 @@
   .responsiveFooterPic {
     transform: scale(1.0);
   }
+
+  .custom {
+    max-width: 430px;
+    transform: scale(0.7);
+  }
+
+  
+  .centralizarSeletor {
+    max-width: 430px;
+   
+  }
+
+  .centralizarSeletor option {
+    max-width: 430px;
+    transform: scale(0.1);
+  }
+
 }
 

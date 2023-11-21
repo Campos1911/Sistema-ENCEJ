@@ -13,7 +13,7 @@ export default function BoasVindas () {
         <HeaderMobile caminho="alterar-dados" username='Carlos Teste' empresaJ='CT Junior'/>
       </div>
 
-      <div className='headerDesktop'>
+      <div className='headerDesktop1'>
         <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
       </div>
       

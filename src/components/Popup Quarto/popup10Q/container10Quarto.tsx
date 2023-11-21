@@ -14,17 +14,18 @@ export default function Container10Quarto({quarto}:{quarto: string}) {
         <div className="box1">
                 <div className="center">
                     <h3>{quarto}</h3>
-                    <p>Disponível</p>
+                    <h4>Disponível</h4>
                 </div>
                 
                 <div className="bttBox">
                     <button className="verDetalhes" onClick={() => {setModal(true)}}>Ver mais</button>
                     
                     {/**Modal é o componente utilizado para mostrar o popup**/}
+                    
                     <Modal isOpen={modal}>
-                        <div className="rolagem">
+                    <div className="rolagem">
                             <h1>Revise as informações do quarto antes de confirmar</h1>
-                            <div className="boxInfo">
+                            <div className="boxInfo10">
                                 <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior" />
                             </div>
 
@@ -32,8 +33,9 @@ export default function Container10Quarto({quarto}:{quarto: string}) {
                                 <Button caminho="sucesso-10-vagas" classname="button10Q" insideText="Confirmar"></Button>
                                 <button className="button10Q" onClick={() => {setModal(false)}}>Voltar</button>
                             </div>
-                        </div>
+                    </div>    
                     </Modal>
+                    
                 
                 </div>
             

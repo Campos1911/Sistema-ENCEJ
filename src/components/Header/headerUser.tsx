@@ -17,18 +17,18 @@ export default function Header({caminho, username, empresaJ}:{caminho:string, us
     return (
     <>
 
-    <header className="header1">
+    <header className="headerDesktop">
 
-        <div className="boxUser">
-            <img onClick={handleRedirect} className="fotoUser" src={Avatar} alt="Foto de Perfil" />
-            <div className="columInfos">
+        <div className="boxUserDesktop">
+            <img onClick={handleRedirect} className="fotoUserDesktop" src={Avatar} alt="Foto de Perfil" />
+            <div className="columInfosDesktop">
                 <h1>{username}</h1>
                 <p>{empresaJ}</p>
             </div>
         </div>
 
         <div className="box-logo">
-            <img className="logoEncejHeader" src={EncejPdd} alt="Logo Encej" />
+            <img className="logoEncejHeaderDesktop" src={EncejPdd} alt="Logo Encej" />
         </div>
 
     </header>   
