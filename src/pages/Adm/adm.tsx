@@ -1,7 +1,6 @@
 import React from "react";
 import "./adm.css";
 import Header from "../../components/Header/headerUser";
-import HeaderMobile from "../../components/HeaderMobile/headerMobile";
 import Footer from "../../components/Footer/footer";
 import Button from "../../components/Button/button";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import EncejPdd from "../../images/Logo padding/Logo - padding.jpg";
-import "./headerUser.css"
+    import "./headerUser.css"
 import { useNavigate } from "react-router-dom";
 
 import Avatar from "../../images/Organizadores/Avatar.jpg"

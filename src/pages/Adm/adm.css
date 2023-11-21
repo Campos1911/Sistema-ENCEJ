@@ -38,9 +38,6 @@
     flex-direction: column;
 }
 
-.box-header-mobile {
-    display: none;
-}
 
 @media (max-width: 375px) {
     .centralize-adm {
