@@ -18,13 +18,15 @@ export default function SelecQuarto6() {
         <section className="divisoria">
             <img className="line" src={Line} alt="divisórioa" />
         </section>
+            
+        <h2 className="title-mobile">Selecione a capacidade do quarto:</h2>
         
         <section className="boxLegenda">
             <img className="legenda" src={Legenda} alt="legendaQuartos" />
         </section>
 
         <div className="selecCapacidade">
-            <h2>Selecione a capacidade do quarto:</h2>
+            <h2 className="title-desktop">Selecione a capacidade do quarto:</h2>
             <div className="centralizarButtons">
                 <div className="botaoQuartos">
                 <Button caminho="selecionar-quarto" classname="button" insideText="4 Lugares" />
@@ -61,7 +63,9 @@ export default function SelecQuarto6() {
             <Container6Quarto quarto='Quarto 6'/>
         </div>
 
-        <Footer classname="footer6vagas"/>
+        <div className="footer-responsive-selec">
+            <Footer classname="footer6vagas"/>
+        </div>
 
         </>
     );

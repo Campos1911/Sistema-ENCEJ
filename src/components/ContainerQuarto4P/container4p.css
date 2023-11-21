@@ -80,3 +80,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 375px) {
+    .centralizarPg4 {
+        transform: scale(0.6);
+    }
+}

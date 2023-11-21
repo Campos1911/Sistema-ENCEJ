@@ -46,6 +46,10 @@
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;;
 }
 
+.title-mobile {
+    display: none;
+}
+
 .centralizarButtons {
     display: flex;
     justify-content: center;
@@ -96,12 +100,23 @@
 @media (max-width: 375px) {
     .boxLegenda {
         transform: scale(0.7);
+        margin-top: 20px;
+    }
+
+    .title-mobile {
+        display: block;
+        font-size: 18px;
+        transform: scale(0.9);
+    }
+
+    .title-desktop {
+        display: none;
     }
 
     .selecCapacidade {
         transform: scale(0.9);
     }
-    
+
     .selecCapacidade h2 {
         font-size: 20px;
     }
@@ -120,12 +135,16 @@
         justify-content: center;
         align-items: center;
         transform: scale(0.66);
-        margin-left: 25px;
+        margin-left: 20px;
     }
 
     .selecCapacidade {
         margin-top: 20px;
         height: 30px;
+    }
+
+    .footer-responsive-selec {
+        margin-left: 20px;
     }
 }
 
