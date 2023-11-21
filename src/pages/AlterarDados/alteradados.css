@@ -17,3 +17,23 @@
 .text h1 {
     color: white;
 }
+
+@media (max-width: 400px) {
+    .text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .centralizar {
+        transform: scale(0.6);
+    }
+
+    .ajustarButton {
+        margin-top: 50px;
+        transform: scale(1.5);
+    }
+
+    .responsividadeFooterDados {
+        transform: scale(1.0);
+    }
+}

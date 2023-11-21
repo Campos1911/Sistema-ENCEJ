@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 import Header from "../../components/Header/headerUser";
-import Footer from "../../components/Footer/footer";
+import Footer from '../../components/Footer/footer';
 import Button from '../../components/Button/button';
 import HeaderMobile from "../../components/HeaderMobile/headerMobile";
 

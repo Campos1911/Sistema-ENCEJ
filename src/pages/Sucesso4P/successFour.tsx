@@ -14,7 +14,9 @@ export default function Sucesso4P() {
             <h1><strong>Sucesso!</strong></h1>
         </section>
 
-        <Container4P username='CarlosTeste' empresaJ='CT Júnior'/>
+        <div className="centralizaContainer">
+          <Container4P username='CarlosTeste' empresaJ='CT Júnior'/>
+        </div>
 
         <div className='centralizarButton'>
             <Button caminho="selecionar-quarto" classname='bttBack' insideText='Voltar'/>
