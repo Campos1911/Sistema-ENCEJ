@@ -121,5 +121,10 @@
         align-items: center;
         transform: scale(0.66);
     }
+
+    .selecCapacidade {
+        margin-top: 20px;
+        height: 30px;
+    }
 }
 
