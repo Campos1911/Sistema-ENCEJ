@@ -33,7 +33,7 @@
   display: none;
 }
 
-.headerDesktop {
+.headerDesktop1 {
   display: block;
 }
 
@@ -43,7 +43,7 @@
 
   }
 
-  .headerDesktop {
+  .headerDesktop1 {
     display: none;
   }
 
@@ -78,7 +78,7 @@
   display: none;
 }
 
-.headerDesktop {
+.headerDesktop1 {
   display: block;
 }
 
@@ -88,7 +88,7 @@
 
   }
 
-  .headerDesktop {
+  .headerDesktop1 {
     display: none;
   }
 

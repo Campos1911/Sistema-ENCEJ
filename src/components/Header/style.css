@@ -1,15 +1,15 @@
-.header1 {
+.headerDesktop {
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
 }
 
-.boxUser {
+.boxUserDesktop {
     display: flex;
     margin: 10px;
 }
 
-.fotoUser {
+.fotoUserDesktop {
     width: 170px;
     height: 160px;
     border-radius: 50%;
@@ -17,12 +17,12 @@
     transition: transform .5s ease;
 }
 
-.fotoUser:hover {
+.fotoUserDesktop:hover {
     transform: scale(1.1);
     transition-duration: 0.4s;
 }
 
-.columInfos {
+.columInfosDesktop {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -35,14 +35,14 @@
     margin-top: 10px;
 }
 
-.columInfos h1{
+.columInfosDesktop h1{
     font-weight: 500;
     font-size: 48px;
     line-height: 56.25px;
     color: white;
 }
 
-.logoEncejHeader {
+.logoEncejHeaderDesktop {
     height: 120px;
     margin-right: 100px;
     margin-top: 30px;

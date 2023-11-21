@@ -14,7 +14,7 @@ export default function Container6Quarto({quarto}:{quarto: string}) {
         <div className="box1">
                 <div className="center">
                     <h3>{quarto}</h3>
-                    <p>Disponível</p>
+                    <h4>Disponível</h4>
                 </div>
                 
                 <div className="bttBox">

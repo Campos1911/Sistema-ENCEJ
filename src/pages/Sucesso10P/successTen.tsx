@@ -8,7 +8,7 @@ import Check from '../../images/Organizadores/Check.jpg'
 export default function Sucesso10P() {
     return (
       <>
-
+    
         <section className="centralizaSuccess">
             <img className='check' src={Check} alt='Check' />
             <h1><strong>Sucesso!</strong></h1>

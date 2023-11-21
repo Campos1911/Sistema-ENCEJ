@@ -17,11 +17,11 @@ export default function Header({caminho, username, empresaJ}:{caminho:string, us
     return (
     <>
 
-    <header className="header1">
+    <header className="headerMobile">
 
-        <div className="boxUser">
-            <img onClick={handleRedirect} className="fotoUser" src={Avatar} alt="Foto de Perfil" />
-            <div className="columInfos">
+        <div className="boxUserMobile">
+            <img onClick={handleRedirect} className="fotoUserMobile" src={Avatar} alt="Foto de Perfil" />
+            <div className="columInfosMobile">
                 <h1>{username}</h1>
                 <p>{empresaJ}</p>
             </div>
