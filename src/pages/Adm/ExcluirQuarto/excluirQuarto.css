@@ -28,7 +28,7 @@
     }
 
     .input-excluir-center {
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     .input-excluir-center h1 {
@@ -36,6 +36,6 @@
     }
 
     .padding-footer-excluir{
-        margin-top: 50px;
+        margin-top: 90px;
     }
 }
