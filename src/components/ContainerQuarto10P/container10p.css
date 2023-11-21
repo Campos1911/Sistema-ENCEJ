@@ -75,3 +75,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 375px) {
+    .centralizarPg10 {
+        transform: scale(0.6);
+    }
+}
