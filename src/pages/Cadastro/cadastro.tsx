@@ -12,8 +12,10 @@ export default function Cadastro() {
             <div className="centralizarPg">
                 <img className='logoEncejCadastro' src={Logo} alt="logoEncej" />
 
-                    <h1>Registro de Participante</h1>
-                    <p>Insira seus dados para prosseguir</p>
+                    <div className="responsividadeTitulo">
+                        <h1>Registro de Participante</h1>
+                        <p>Insira seus dados para prosseguir</p>
+                    </div>
 
                     {/**FORMULÁRIO PARA PEGAR DADOS DO PARTICIPANTE**/}
                     <form className="boxInputs">
@@ -24,7 +26,9 @@ export default function Cadastro() {
 
                     <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
 
-                    <Footer classname="footerCadastro"/>
+                    <div className="responsividadeFooter">
+                        <Footer classname="footerCadastro"/>
+                    </div>
             </div>
         </>
     );

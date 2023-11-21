@@ -73,10 +73,25 @@
     margin-top: 30px;
   }  
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .centralizarTitulo h1 {
     font-size: 20px;
     margin-top: 30px;
+    width: 286px;
+  }
+
+  .centralizarSeletor {
+    transform: scale(0.9);
+    width: 100%;
+  }
+
+  .centralizarSeletor option {
+    transform: scale(0.9);
+    width: 100%;
+  }
+
+  .responsiveFooterPic {
+    transform: scale(1.0);
   }
 
   .custom {

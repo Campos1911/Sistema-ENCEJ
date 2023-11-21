@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Avatar from "../../images/Organizadores/Avatar.jpg"
 
 
-export default function Header({caminho, username, empresaJ}:{caminho:string, username:string, empresaJ:string}) {
+export default function HeaderMobile({caminho, username, empresaJ}:{caminho:string, username:string, empresaJ:string}) {
     
     const navigate = useNavigate();
     
@@ -16,12 +16,11 @@ export default function Header({caminho, username, empresaJ}:{caminho:string, us
     
     return (
     <>
+    <header className="header2">
 
-    <header className="headerMobile">
-
-        <div className="boxUserMobile">
-            <img onClick={handleRedirect} className="fotoUserMobile" src={Avatar} alt="Foto de Perfil" />
-            <div className="columInfosMobile">
+        <div className="boxUser2">
+            <img onClick={handleRedirect} className="fotoUser2" src={Avatar} alt="Foto de Perfil" />
+            <div className="columInfos2">
                 <h1>{username}</h1>
                 <p>{empresaJ}</p>
             </div>

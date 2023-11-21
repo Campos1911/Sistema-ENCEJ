@@ -1,4 +1,4 @@
-.headerMobile {
+.header2 {
     display: flex;
     justify-content: left;
     margin-left: 20px;
@@ -8,32 +8,31 @@
     height: 97px;
 }
 
-.boxUserMobile {
+.boxUser2 {
     display: flex;
     justify-content: left;
 }
 
-.fotoUserMobile {
+.fotoUser2 {
     width: 57px;
     height: 57px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.columInfosMobile {
-    margin-left: 10px;
+.columInfos2 {
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
-   
     height: 19px;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 18.75px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.columInfosMobile h1{
+.columInfos2 h1{
     font-weight: 700;
     font-size: 20px;
     line-height: 23.44px;
