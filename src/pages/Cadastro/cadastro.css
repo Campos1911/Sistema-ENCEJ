@@ -13,6 +13,11 @@
     margin-bottom: 60px;
 }
 
+.ajustaButton {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
 .boxInputs {
     display: flex;
     flex-direction: column;
@@ -49,7 +54,7 @@ option {
         margin-top: 30px;
     }
 
-    .responsividadeFooter {
+    .responsividadeFooterCadastro {
         margin-top: 80px;
         transform: scale(1.0);
     }
