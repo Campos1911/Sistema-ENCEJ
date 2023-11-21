@@ -27,11 +27,15 @@
         transform: scale(0.6);
     }
 
+    .input-excluir-pessoa-center {
+        margin-top: 0px;
+    }
+
     .input-excluir-pessoa-center h1 {
         font-size: 34px;
     }
 
     .padding-excluir-pessoa {
-        margin-top: 50px;
+        margin-top: 90px;
     }
 }

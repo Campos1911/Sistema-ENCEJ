@@ -27,12 +27,16 @@
         transform: scale(0.6);
     }
 
+    .input-vagas-center {
+        margin-top: 0px;
+    }
+
     .input-vagas-center h1 {
         font-size: 34px;
     }
 
     .padding-box-footer{
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
 }
