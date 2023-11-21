@@ -24,10 +24,15 @@ export default function Cadastro() {
                         <Input type="password" placeh="Confirme sua senha" classname="password"/>
                     </form>
 
-                    <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
+                    <div className="ajustaButton">
+                        <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
+                    </div>
 
-                    <div className="responsividadeFooter">
-                        <Footer classname="footerCadastro"/>
+
+                    
+
+                    <div className="responsividadeFooterCadastro">
+                        <Footer classname="footerCadastro"/> 
                     </div>
             </div>
         </>
