@@ -26,10 +26,7 @@ export default function Cadastro() {
 
                     <div className="ajustaButton">
                         <Button caminho="boas-vindas" insideText="Registrar" classname="bttnCadastro" />
-                    </div>
-
-
-                    
+                    </div>                    
 
                     <div className="responsividadeFooterCadastro">
                         <Footer classname="footerCadastro"/> 
