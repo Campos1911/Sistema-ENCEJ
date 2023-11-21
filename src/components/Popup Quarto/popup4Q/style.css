@@ -68,3 +68,18 @@
 .button10Q:hover {
     transform: scale(1);
 }
+
+@media (max-width: 375px) {
+    .boxInfo {
+        transform: scale(0.4);
+    }
+
+    .boxButtons {
+        transform: scale(0.23);
+    }
+
+    .modal-title {
+        transform: scale(0.3);
+        text-align: center;
+    }
+}

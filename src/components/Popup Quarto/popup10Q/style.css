@@ -69,6 +69,14 @@
     transform: scale(1);
 }
 
+.button6Q:hover {
+    transform: scale(1);
+}
+
+.button4Q:hover {
+    transform: scale(1);
+}
+
 @media (max-width: 375px) {
 
     .box1 {
