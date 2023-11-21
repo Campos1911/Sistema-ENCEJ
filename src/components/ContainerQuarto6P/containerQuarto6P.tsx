@@ -26,7 +26,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
                 <div className="infos">
                     <h2>{username}</h2>
-                    <p>{empresaJ}</p>
+                    <h4>{empresaJ}</h4>
                 </div>
             </div>
         </div>
