@@ -10,7 +10,7 @@ export default function AlterarDados() {
     return(
         <>
 
-            <div className="headerDesktop">
+            <div className="headerDesktopDados">
                 <Header caminho="alterar-dados" username="Carlos Teste" empresaJ="CT Junior"/>
             </div>
 

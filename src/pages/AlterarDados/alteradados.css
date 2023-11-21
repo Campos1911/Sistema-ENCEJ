@@ -18,7 +18,24 @@
     color: white;
 }
 
+.headerDesktopDados {
+    display: block;
+}
+
+.headerResponsiva {
+    display: none;
+}
+
 @media (max-width: 400px) {
+
+    .headerDesktopDados {
+        display:none;
+    }
+
+    .headerResponsiva {
+        display: block;
+    }
+    
     .text {
         font-size: 15px;
         text-align: center;
