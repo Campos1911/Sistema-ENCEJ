@@ -89,3 +89,37 @@
     margin: 5px 82px;
 }
 
+.coluna-responsiva {
+    display: none;
+}
+
+@media (max-width: 375px) {
+    .boxLegenda {
+        transform: scale(0.7);
+    }
+
+    .selecCapacidade {
+        transform: scale(0.9);
+    }
+    
+    .selecCapacidade h2 {
+        font-size: 20px;
+    }
+
+    .botaoQuartos {
+        transform: scale(1.2);
+    }
+
+    .linha {
+        display: none;
+    }
+
+    .coluna-responsiva {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.66);
+    }
+}
+

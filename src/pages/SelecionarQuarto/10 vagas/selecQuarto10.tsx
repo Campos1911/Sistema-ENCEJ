@@ -52,7 +52,18 @@ export default function SelecQuarto10() {
             <Container10Quarto quarto='Quarto 6'/>
         </div>
 
+        {/**USADO PARA A RESPONSIVIDADE NOS CELULARES**/}
+        <div className="coluna-responsiva">
+            <Container10Quarto quarto='Quarto 1'/>
+            <Container10Quarto quarto='Quarto 2'/>
+            <Container10Quarto quarto='Quarto 3'/>
+            <Container10Quarto quarto='Quarto 4'/>
+            <Container10Quarto quarto='Quarto 5'/>
+            <Container10Quarto quarto='Quarto 6'/>
+        </div>
+
         <Footer classname="footer10vagas"/>
+        
 
         </>
     );

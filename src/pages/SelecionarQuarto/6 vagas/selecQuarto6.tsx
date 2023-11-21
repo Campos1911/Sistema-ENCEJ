@@ -51,6 +51,16 @@ export default function SelecQuarto6() {
             <Container6Quarto quarto='Quarto 6'/>
         </div>
 
+        {/**USADO PARA A RESPONSIVIDADE NOS CELULARES**/}
+        <div className="coluna-responsiva">
+            <Container6Quarto quarto='Quarto 1'/>
+            <Container6Quarto quarto='Quarto 2'/>
+            <Container6Quarto quarto='Quarto 3'/>
+            <Container6Quarto quarto='Quarto 4'/>
+            <Container6Quarto quarto='Quarto 5'/>
+            <Container6Quarto quarto='Quarto 6'/>
+        </div>
+
         <Footer classname="footer6vagas"/>
 
         </>
