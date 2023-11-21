@@ -16,7 +16,6 @@ export default function HeaderMobile({caminho, username, empresaJ}:{caminho:stri
     
     return (
     <>
-
     <header className="header2">
 
         <div className="boxUser2">
