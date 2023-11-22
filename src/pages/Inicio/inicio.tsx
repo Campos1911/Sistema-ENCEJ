@@ -1,6 +1,7 @@
 import React from 'react';
-import './inicio.css'
-import { useNavigate } from 'react-router-dom'
+import './inicio.css';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 /**IMPORT DAS IMAGENS**/
 import Encej from '../../../src/images/Logo/Logo.jpg'
