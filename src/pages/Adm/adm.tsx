@@ -4,6 +4,8 @@ import Header from "../../components/Header/headerUser";
 import Footer from "../../components/Footer/footer";
 import Button from "../../components/Button/button";
 
+/**A DEV PAGE SERIA ACESSADA COM O LOGIN ENVIADO PELO BACK**/
+
 export default function Adm() {
     return (
         <>

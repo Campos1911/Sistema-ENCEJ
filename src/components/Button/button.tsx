@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Button({classname, insideText, caminho}:{caminho:string, classname:string, insideText:string}) {
     
-    const navigate = useNavigate();
+    const navigate = useNavigate(); /**UTILIZADO PARA AS ROTAS**/
     
     const handleRedirect = () => {
         return navigate(`/${caminho}`)

@@ -18,6 +18,7 @@ export default function SelecQuarto() {
             <img className="line" src={Line} alt="divisórioa" />
         </section>
 
+        {/**UTILIZADO APENAS PARA MOBILE - DISPLAY NONE NO DESKTOP**/}
         <h2 className="title-mobile">Selecione a capacidade do quarto:</h2>
         
         <section className="boxLegenda">

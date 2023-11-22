@@ -19,6 +19,7 @@ export default function Header({caminho, username, empresaJ}:{caminho:string, us
 
     <header className="headerDesktop">
 
+        {/**QUANDO CLICA NA IMAGEM REDIRECIONA PARA AS MUDANÇAS DOS DADOS**/}
         <div className="boxUserDesktop">
             <img onClick={handleRedirect} className="fotoUserDesktop" src={Avatar} alt="Foto de Perfil" />
             <div className="columInfosDesktop">

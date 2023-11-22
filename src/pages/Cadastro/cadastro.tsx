@@ -13,6 +13,7 @@ export default function Cadastro() {
     const navigate = useNavigate ()
     const URL = 'https://wldzajo7ka.execute-api.us-east-1.amazonaws.com/dev/' 
 
+    /**FUNÇÃO PARA INTEGRAR O CADASTRO ENVIADO PELO BACKEND**/
       async function handleLogin () {
         const response = await fetch (`${URL}person`, {
           method: 'POST',
@@ -27,7 +28,7 @@ export default function Cadastro() {
           
                     })
                   })
-            return(navigate("/boas-vindas"))
+            return(navigate("/boas-vindas")) /**NAVIGATE UTILIZADO PARA AS ROTAS**/
           }
 
           function handleLogin1(event: any) {
