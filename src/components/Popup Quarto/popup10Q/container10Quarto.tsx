@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../Button/button";
-import "./style.css";
+import "../popup4Q/style.css";
 import Modal from "../../Modal/modal";
 import { useState } from "react";
 import ContainerSucesso from "../../ContainerQuarto10P/containerQuarto10P";
@@ -24,7 +24,7 @@ export default function Container10Quarto({quarto}:{quarto: string}) {
                     
                     <Modal isOpen={modal}>
                         <div className="box-modal">
-                            <h1 className="modal-title2">Revise as informações do quarto antes de confirmar</h1>
+                            <h1 className="modal-title3">Revise as informações do quarto antes de confirmar</h1>
                                 <div className="boxInfo">
                                     <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior" />
                                 <div className="boxButtons">
