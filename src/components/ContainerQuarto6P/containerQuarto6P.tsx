@@ -24,7 +24,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
         <div className="column">
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
@@ -32,7 +32,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
@@ -42,7 +42,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
         <div className="column">
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
@@ -50,7 +50,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
@@ -60,7 +60,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
         <div className="column">
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
@@ -68,7 +68,7 @@ export default function ContainerSucesso({username, empresaJ}:{username:string, 
 
             <div className="item">
                 <img className="fotoUsuario" src={Avatar} alt="Foto de Perfil" />
-                <div className="infos">
+                <div className="infosNew">
                     <h2>{username}</h2>
                     <p>{empresaJ}</p>
                 </div>
