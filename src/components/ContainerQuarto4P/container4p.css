@@ -44,7 +44,7 @@
     border-radius: 50%;
 }
 
-.infos {
+.infosNew {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -55,9 +55,10 @@
     font-weight: 400;
     margin-top: 10px;
     color: #000;
+    text-align: left;
 }
     
-.infos h2{
+.infosNew h2{
     font-weight: 700;
     font-size: 16px;
     line-height: 18.75px;
@@ -74,6 +75,7 @@
 .item p {
     background-color: #FFF;
     color: #000;
+    justify-content: left;
 }
 
 .column {

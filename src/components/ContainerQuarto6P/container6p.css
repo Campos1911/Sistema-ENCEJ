@@ -44,7 +44,7 @@
     border-radius: 50%;
 }
 
-.infos {
+.infosNew {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -55,14 +55,16 @@
     font-weight: 400;
     margin-top: 10px;
     color: #000;
+    justify-content: left;
 }
     
-.infos h2{
+.infosNew h2{
     font-weight: 700;
     font-size: 16px;
     line-height: 18.75px;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
+    justify-content: left;
 }
 
 .item {
