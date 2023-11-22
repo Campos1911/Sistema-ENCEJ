@@ -18,7 +18,7 @@ export default function Container4Quarto({quarto}:{quarto: string}) {
                 </div>
                 
                 <div className="bttBox">
-                    <button className="verDetalhes" onClick={() => {setModal(true)}}>Ver mais</button>
+                    <button className="verDetalhes" onClick={() => {setModal(true)}}>Ver detalhes</button>
                     
                     {/**Modal é o componente utilizado para mostrar o popup**/}
                     <Modal isOpen={modal}>
@@ -27,8 +27,8 @@ export default function Container4Quarto({quarto}:{quarto: string}) {
                             <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior"/>
                         </div>
                         <div className="boxButtons">
-                            <Button caminho="sucesso-4-vagas" classname="button4Q" insideText="Confirmar"></Button>
-                            <button  className="button4Q" onClick={() => {setModal(false)}}>Voltar</button>
+                            <Button caminho="sucesso-4-vagas" classname="button10Q" insideText="Confirmar"></Button>
+                            <button  className="button10Q" onClick={() => {setModal(false)}}>Voltar</button>
                         </div>
                     </Modal>
                 
