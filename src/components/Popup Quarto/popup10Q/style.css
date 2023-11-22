@@ -68,7 +68,40 @@
     transform: scale(1);
 }
 
+.button6Q:hover {
+    transform: scale(1);
+}
+
+.button4Q:hover {
+    transform: scale(1);
+}
+
 @media (max-width: 375px) {
+
+    .modal-title {
+        transform: scale(0.45);
+        position: absolute;
+        font-size: 26px;
+        margin-top: 60px;
+    }
+    
+    .modal-title2 {
+        transform: scale(0.45);
+        position: absolute;
+        font-size: 26px;
+        margin-top: 100px;
+    }
+
+    .boxInfo {
+        transform: scale(0.4);
+        margin-top: 30px;
+        margin-bottom: 200px;
+    }
+
+    .boxButtons {
+        transform: scale(0.7);
+
+    }
 
     .box1 {
         padding-right: 20px;

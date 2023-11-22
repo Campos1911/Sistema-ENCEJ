@@ -22,13 +22,15 @@ export default function Container4Quarto({quarto}:{quarto: string}) {
                     
                     {/**Modal é o componente utilizado para mostrar o popup**/}
                     <Modal isOpen={modal}>
-                        <h1>Revise as informações do quarto antes de confirmar</h1>
-                        <div className="boxInfo">
-                            <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior"/>
-                        </div>
-                        <div className="boxButtons">
-                            <Button caminho="sucesso-4-vagas" classname="button10Q" insideText="Confirmar"></Button>
-                            <button  className="button10Q" onClick={() => {setModal(false)}}>Voltar</button>
+                        <div className="box-modal">
+                            <h1 className="modal-title">Revise as informações do quarto antes de confirmar</h1>
+                                <div className="boxInfo">
+                                    <ContainerSucesso username="Carlos Teste" empresaJ="CT Junior"/>
+                                <div className="boxButtons">
+                                    <Button caminho="sucesso-4-vagas" classname="button4Q1" insideText="Confirmar"></Button>
+                                    <button  className="button4Q" onClick={() => {setModal(false)}}>Voltar</button>
+                                </div>
+                            </div>
                         </div>
                     </Modal>
                 
